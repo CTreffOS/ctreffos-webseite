@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="516.80817"
+   height="299.01935"
+   id="svg8195"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="ctreffos-logo.svg">
+  <defs
+     id="defs8197" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="729.72503"
+     inkscape:cy="310.54106"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="879"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="20"
+     fit-margin-left="20"
+     fit-margin-right="20"
+     fit-margin-bottom="20" />
+  <metadata
+     id="metadata8200">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-103.21244,-687.71875)">
+    <text
+       xml:space="preserve"
+       style="font-size:38.04227066px;font-style:normal;font-weight:normal;line-height:107.00000525%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="193.37878"
+       y="770.16583"
+       id="text2985-3-2-5-5"
+       sodipodi:linespacing="107.00001%"
+       transform="scale(0.99165286,1.0084174)"><tspan
+         sodipodi:role="line"
+         id="tspan2987-6-4-2-8"
+         x="193.37878"
+         y="770.16583"
+         style="font-size:68.47608948px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:107.00000525%;letter-spacing:0px;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">CHAOS</tspan><tspan
+         sodipodi:role="line"
+         x="193.37878"
+         y="843.43524"
+         id="tspan2989-4-8-9-5"
+         style="font-size:68.47608948px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:107.00000525%;letter-spacing:0px;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">TREFF</tspan><tspan
+         sodipodi:role="line"
+         x="193.37878"
+         y="916.70465"
+         id="tspan2991-0-3-8-3"
+         style="font-size:68.47608948px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:107.00000525%;letter-spacing:0px;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"> OSNABRUCK</tspan></text>
+    <path
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:3.1730001;stroke-miterlimit:4;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 350.67644,941.48368 -112.04242,0 m -62.04242,-90.08485 0,-142.08486 232.16968,0 0,142.08491"
+       id="rect7647-4-3-9-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3488-7-1"
+       y="891.12744"
+       x="490.53644"
+       style="font-size:23.37206459px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         y="891.12744"
+         x="490.53644"
+         id="tspan3490-1-3"
+         sodipodi:role="line">E</tspan></text>
+    <g
+       transform="matrix(0.26814856,0,0,0.2562255,177.1103,915.23676)"
+       id="g6-9-4">
+      <path
+         style="fill:#000000"
+         inkscape:connector-curvature="0"
+         id="felly-1-0"
+         d="m 6,37 c 0,19 3,38 17,57 -12,12 -10,41 -10,62 l -25,0 c 0,-21 1,-50 -11,-62 C -9,75 -6,56 -6,37 l 12,0 z" />
+      <use
+         height="1052.3622"
+         width="744.09448"
+         y="0"
+         x="0"
+         xlink:href="#felly-1-0"
+         transform="matrix(0.5,0.8660254,-0.8660254,0.5,0,0)"
+         id="use9-0-9" />
+      <use
+         height="1052.3622"
+         width="744.09448"
+         y="0"
+         x="0"
+         xlink:href="#felly-1-0"
+         transform="matrix(-0.5,0.8660254,-0.8660254,-0.5,0,0)"
+         id="use11-0-3" />
+      <use
+         height="1052.3622"
+         width="744.09448"
+         y="0"
+         x="0"
+         xlink:href="#felly-1-0"
+         transform="scale(-1,-1)"
+         id="use13-8-8" />
+      <use
+         height="1052.3622"
+         width="744.09448"
+         y="0"
+         x="0"
+         xlink:href="#felly-1-0"
+         transform="matrix(-0.5,-0.8660254,0.8660254,-0.5,0,0)"
+         id="use15-7-4" />
+      <use
+         height="1052.3622"
+         width="744.09448"
+         y="0"
+         x="0"
+         xlink:href="#felly-1-0"
+         transform="matrix(0.5,-0.8660254,0.8660254,0.5,0,0)"
+         id="use17-8-2" />
+      <g
+         style="fill:none;stroke:#000000"
+         id="g19-5-6">
+        <circle
+           style="stroke-width:12"
+           sodipodi:ry="195"
+           sodipodi:rx="195"
+           sodipodi:cy="0"
+           sodipodi:cx="0"
+           cy="0"
+           cx="0"
+           r="195"
+           id="circle21-7-3"
+           d="m 195,0 c 0,107.69553 -87.30447,195 -195,195 -107.69553,0 -195,-87.30447 -195,-195 0,-107.69553 87.30447,-195 195,-195 107.69553,0 195,87.30447 195,195 z" />
+        <circle
+           style="stroke-width:12"
+           sodipodi:ry="176"
+           sodipodi:rx="176"
+           sodipodi:cy="0"
+           sodipodi:cx="0"
+           cy="0"
+           cx="0"
+           r="176"
+           id="circle23-0-2"
+           d="M 176,0 C 176,97.202116 97.202116,176 0,176 -97.202116,176 -176,97.202116 -176,0 c 0,-97.202116 78.797884,-176 176,-176 97.202116,0 176,78.797884 176,176 z" />
+        <circle
+           style="stroke-width:11"
+           sodipodi:ry="157"
+           sodipodi:rx="157"
+           sodipodi:cy="0"
+           sodipodi:cx="0"
+           cy="0"
+           cx="0"
+           r="157"
+           id="circle25-7-9"
+           d="M 157,0 C 157,86.708706 86.708706,157 0,157 -86.708706,157 -157,86.708706 -157,0 c 0,-86.708706 70.291294,-157 157,-157 86.708706,0 157,70.291294 157,157 z" />
+        <circle
+           style="stroke-width:11"
+           sodipodi:ry="37"
+           sodipodi:rx="37"
+           sodipodi:cy="0"
+           sodipodi:cx="0"
+           cy="0"
+           cx="0"
+           r="37"
+           id="circle27-5-2"
+           d="M 37,0 C 37,20.434536 20.434536,37 0,37 -20.434536,37 -37,20.434536 -37,0 c 0,-20.434536 16.565464,-37 37,-37 20.434536,0 37,16.565464 37,37 z" />
+        <circle
+           style="stroke-width:11"
+           sodipodi:ry="18"
+           sodipodi:rx="18"
+           sodipodi:cy="0"
+           sodipodi:cx="0"
+           cy="0"
+           cx="0"
+           r="18"
+           id="circle29-8-3"
+           d="M 18,0 C 18,9.9411255 9.9411255,18 0,18 -9.9411255,18 -18,9.9411255 -18,0 c 0,-9.9411255 8.0588745,-18 18,-18 9.9411255,0 18,8.0588745 18,18 z" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+body {
+	max-width: 600px;
+	margin: 0 auto;
+	margin-top: 25px;
+	text-align: justify;
+	text-justify: auto;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	padding: 25px;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+dt {
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+dl {
+	margin-top: 30px;
+}
+
+a, a:hover {
+	color: black;
+}
+
+a:hover {
+	color: gray;
+}
+
+header {
+	text-align: center;
+}
+
+#langln {
+	font-size: smaller;
+	float: right;
+}
