@@ -32,8 +32,6 @@ function getNextMeeting() {
 }
 
 function setMeeting() {
-    var nextMeeting = getNextMeeting();
-    var node = document.getElementById('nextMeeting');
-    node.innerHTML = nextMeeting + node.innerHTML;
+    document.getElementById('nextMeeting').innerHTML = getNextMeeting();
 }
 
