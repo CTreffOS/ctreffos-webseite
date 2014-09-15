@@ -41,7 +41,7 @@ function toISO8601String(dateString) {
     dateString = ('' + dateString).split(' ');
     month = '' + (months.indexOf(dateString[1]) + 1);
     if (month.length == 1) {
-      month = "0" + month;
+        month = "0" + month;
     }
     timezone = dateString[5].split('T')[1];
     iso8601String = dateString[3]
@@ -55,7 +55,7 @@ function toISO8601String(dateString) {
 function getNextMeeting() {
     var nextMeeting = getMondaysOfMonth(new Date().getMonth())[3];
     if (nextMeeting.getTime() <= new Date().getTime()) {
-      nextMeeting = getMondaysOfMonth(new Date().getMonth() + 1)[3];
+        nextMeeting = getMondaysOfMonth(new Date().getMonth() + 1)[3];
     }
     // Meeting time is always at 19:00:00:00 locale time.
     nextMeeting.setHours(19);
