@@ -8,6 +8,11 @@ function getMondaysOfMonth(month) {
     while (d.getDay() !== 1) {
         d.setDate(d.getDate() + 1);
     }
+    // Meeting time is always at 19:00:00:00 locale time.
+    d.setHours(19);
+    d.setMinutes(00);
+    d.setSeconds(00);
+    d.setMilliseconds(00);
     // Get all the other Mondays in the month.
     while (d.getMonth() === month) {
         mondays.push(new Date(d.getTime()));
@@ -53,15 +58,14 @@ function toISO8601String(dateString) {
 }
 
 function getNextMeeting() {
-    var nextMeeting = getMondaysOfMonth(new Date().getMonth())[3];
-    if (nextMeeting.getTime() <= new Date().getTime()) {
+    var nextMeeting = getMondaysOfMonth(new Date().getMonth())[3],
+        currentDate;
+    currentDate = new Date();
+    // Test with a fixed date.
+    // currentDate = new Date(2014, 09, 27, 19, 01, 00, 00);
+    if (nextMeeting.getTime() < currentDate.getTime()) {
         nextMeeting = getMondaysOfMonth(new Date().getMonth() + 1)[3];
     }
-    // Meeting time is always at 19:00:00:00 locale time.
-    nextMeeting.setHours(19);
-    nextMeeting.setMinutes(00);
-    nextMeeting.setSeconds(00);
-    nextMeeting.setMilliseconds(00);
     // Convert to string, like:
     // Mon Sep 22 2014 19:00:00 GMT+0200 (CEST)
     // nextMeeting = nextMeeting.toString();
