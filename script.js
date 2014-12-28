@@ -1,22 +1,23 @@
-function getMondaysOfMonth(month) {
-    var d = new Date(),
+function getMondaysOfMonth(month, year) {
+    var currentDate = new Date(),
         mondays = [];
-    d.setMonth(month);
-    // Set day = 1 of d, e.g. of current date.
-    d.setDate(1);
+    currentDate.setMonth(month);
+    currentDate.setFullYear(year);
+    // Start at the first day of a month.
+    currentDate.setDate(1);
     // Get the first Monday in the month.
-    while (d.getDay() !== 1) {
-        d.setDate(d.getDate() + 1);
+    while (currentDate.getDay() !== 1) {
+        currentDate.setDate(currentDate.getDate() + 1);
     }
     // Meeting time is always at 19:00:00:00 locale time.
-    d.setHours(19);
-    d.setMinutes(00);
-    d.setSeconds(00);
-    d.setMilliseconds(00);
+    currentDate.setHours(19);
+    currentDate.setMinutes(00);
+    currentDate.setSeconds(00);
+    currentDate.setMilliseconds(00);
     // Get all the other Mondays in the month.
-    while (d.getMonth() === month) {
-        mondays.push(new Date(d.getTime()));
-        d.setDate(d.getDate() + 7);
+    while (currentDate.getMonth() === month) {
+        mondays.push(new Date(currentDate.getTime()));
+        currentDate.setDate(currentDate.getDate() + 7);
     }
     return mondays;
 }
@@ -58,13 +59,26 @@ function toISO8601String(dateString) {
 }
 
 function getNextMeeting() {
-    var nextMeeting = getMondaysOfMonth(new Date().getMonth())[3],
-        currentDate;
+    var nextMeeting,
+        currentDate,
+        nextMeetingMonth,
+        nextMeetingYear;
     currentDate = new Date();
     // Test with a fixed date.
-    // currentDate = new Date(2014, 09, 27, 19, 01, 00, 00);
+    // currentDate = new Date(2015, 0, 26, 19, 01, 00, 00);
+    nextMeetingMonth = currentDate.getMonth();
+    nextMeetingYear = currentDate.getFullYear();
+    nextMeeting = getMondaysOfMonth(nextMeetingMonth, nextMeetingYear)[3];
     if (nextMeeting.getTime() < currentDate.getTime()) {
-        nextMeeting = getMondaysOfMonth(new Date().getMonth() + 1)[3];
+        if (currentDate.getMonth() < 11) {
+            nextMeetingMonth = currentDate.getMonth() + 1;
+            nextMeeting = getMondaysOfMonth(nextMeetingMonth, nextMeetingYear)[3];
+        }
+        else {
+            nextMeetingMonth = 0;
+            nextMeetingYear = currentDate.getFullYear() + 1;
+            nextMeeting = getMondaysOfMonth(nextMeetingMonth, nextMeetingYear)[3];
+        }
     }
     // Convert to string, like:
     // Mon Sep 22 2014 19:00:00 GMT+0200 (CEST)
