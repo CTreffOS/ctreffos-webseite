@@ -96,7 +96,7 @@ function getNextMeeting() {
     var nextMeetingMonth;
     var nextMeetingYear;
     // Test with a fixed date.
-    currentDate = new Date(2015, 0, 19, 19, 01, 00, 00);
+    // currentDate = new Date(2015, 0, 19, 19, 01, 00, 00);
     console.log('Inside function getNextMeeting.');
     console.log('Current date:');
     console.log(currentDate);
