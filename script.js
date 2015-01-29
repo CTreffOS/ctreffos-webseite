@@ -42,9 +42,9 @@ function toRFC2822String(dateString) {
     // Convert date to RFC2822 conform string, like:
     // Mon, 22 Sep 2014 19:00:00 +0200
     var timezone;
-    console.log('Inside function toRFC2822String');
+    console.log('Inside function toRFC2822String.');
     if (dateString === undefined) {
-        rfc2822String = 'ERROR: Cannot convert date.';
+        rfc2822String = 'ERROR: Cannot convert empty date string.';
     }
     else {
         dateString = ('' + dateString).split(' ');
@@ -56,7 +56,7 @@ function toRFC2822String(dateString) {
                         + ' ' + dateString[4]
                         + ' ' + timezone;
     }
-    console.log('Leaving function toRFC2822String');
+    console.log('Leaving function toRFC2822String.');
     return rfc2822String;
 }
 
@@ -70,7 +70,7 @@ function toISO8601String(dateString) {
     var month;
     console.log('Inside function toISO8601String.');
     if (dateString === undefined) {
-        iso8601String = 'ERROR: Cannot convert date.';
+        iso8601String = 'ERROR: Cannot convert empty date string.';
     }
     else {
         dateString = ('' + dateString).split(' ');
@@ -105,7 +105,7 @@ function getNextMeeting() {
     nextMeeting = getMondaysOfMonth(nextMeetingMonth, nextMeetingYear)[3];
     console.log('Next meeting found.');
     console.log(nextMeeting);
-    console.log('Checking, if found next meeting of this month is already over.');
+    console.log('Checking, if found meeting of this month is already over.');
     console.log(nextMeeting.getTime());
     console.log(currentDate.getTime());
     if (nextMeeting.getTime() < currentDate.getTime()) {
@@ -118,7 +118,7 @@ function getNextMeeting() {
             console.log(nextMeeting);
         }
         else if (currentDate.getMonth() === 11) {
-            console.log('Current month = 11');
+            console.log('Current month = 11.');
             nextMeetingMonth = 0;
             nextMeetingYear = currentDate.getFullYear() + 1;
             nextMeeting = getMondaysOfMonth(nextMeetingMonth, nextMeetingYear)[3];
@@ -141,9 +141,9 @@ function getNextMeeting() {
 }
 
 
-function setMeeting() {
-    console.log('Inside function setMeeting.');
+function setNextMeeting() {
+    console.log('Inside function setNextMeeting.');
     document.getElementById('nextMeeting').innerHTML = getNextMeeting();
-    console.log('Leaving function setMeeting.');
+    console.log('Leaving function setNextMeeting.');
 }
 
