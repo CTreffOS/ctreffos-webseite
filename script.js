@@ -17,7 +17,8 @@ function getMondaysOfMonth(month, year) {
     currentDate.setFullYear(year);
     // Start at the first day of a month.
     currentDate.setDate(1);
-    console.log('First day of month that is checked for next meeting:');
+    console.log('First day of month ' + month
+        + ' that is checked for next meeting:');
     console.log(currentDate);
     // Get the first Monday in the month.
     while (currentDate.getDay() !== 1) {
@@ -33,6 +34,8 @@ function getMondaysOfMonth(month, year) {
         mondays.push(new Date(currentDate.getTime()));
         currentDate.setDate(currentDate.getDate() + 7);
     }
+    console.log('Found first 4 mondays of months ' + month + ':');
+    console.log(mondays);
     console.log('Leaving function getMondaysOfMonth.');
     return mondays;
 }
@@ -41,21 +44,16 @@ function getMondaysOfMonth(month, year) {
 function toRFC2822String(dateString) {
     // Convert date to RFC2822 conform string, like:
     // Mon, 22 Sep 2014 19:00:00 +0200
-    var timezone;
+    var timezone = null;
     console.log('Inside function toRFC2822String.');
-    if (dateString === undefined) {
-        rfc2822String = 'ERROR: Cannot convert empty date string.';
-    }
-    else {
-        dateString = ('' + dateString).split(' ');
-        timezone = dateString[5].split('T')[1];
-        rfc2822String = dateString[0]
-                        + ', ' + dateString[2]
-                        + ' ' + dateString[1]
-                        + ' ' + dateString[3]
-                        + ' ' + dateString[4]
-                        + ' ' + timezone;
-    }
+    dateString = ('' + dateString).split(' ');
+    timezone = dateString[5].split('T')[1];
+    rfc2822String = dateString[0]
+                    + ', ' + dateString[2]
+                    + ' ' + dateString[1]
+                    + ' ' + dateString[3]
+                    + ' ' + dateString[4]
+                    + ' ' + timezone;
     console.log('Leaving function toRFC2822String.');
     return rfc2822String;
 }
@@ -64,49 +62,47 @@ function toRFC2822String(dateString) {
 function toISO8601String(dateString) {
     // Convert date to ISO8601 conform string in local timezone, like:
     // 2014-09-22T19:00:00+0200
-    var timezone;
+    var timezone = null;
     var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul",
                   "Aug", "Sep", "Oct", "Nov", "Dec"];
-    var month;
+    var month = null;
     console.log('Inside function toISO8601String.');
-    if (dateString === undefined) {
-        iso8601String = 'ERROR: Cannot convert empty date string.';
+    dateString = ('' + dateString).split(' ');
+    month = '' + (months.indexOf(dateString[1]) + 1);
+    if (month.length == 1) {
+        month = "0" + month;
     }
-    else {
-        dateString = ('' + dateString).split(' ');
-        month = '' + (months.indexOf(dateString[1]) + 1);
-        if (month.length == 1) {
-            month = "0" + month;
-        }
-        timezone = dateString[5].split('T')[1];
-        iso8601String = dateString[3]
-                        + '-' + month
-                        + '-' + dateString[2]
-                        + 'T' + dateString[4]
-                        + timezone;
-    }
+    timezone = dateString[5].split('T')[1];
+    iso8601String = dateString[3]
+                    + '-' + month
+                    + '-' + dateString[2]
+                    + 'T' + dateString[4]
+                    + timezone;
     console.log('Leaving function toISO8601String.');
     return iso8601String;
 }
 
 
 function getNextMeeting() {
-    var nextMeeting;
+    var nextMeeting = null;
     var currentDate = new Date();
-    var nextMeetingMonth;
-    var nextMeetingYear;
+    var nextMeetingMonth = null;
+    var nextMeetingYear = null;
     // Test with a fixed date.
-    // currentDate = new Date(2015, 0, 19, 19, 01, 00, 00);
+    currentDate = new Date(2015, 0, 19, 19, 01, 00, 00);
     console.log('Inside function getNextMeeting.');
     console.log('Current date:');
     console.log(currentDate);
     nextMeetingMonth = currentDate.getMonth();
     nextMeetingYear = currentDate.getFullYear();
+    console.log('Find next meeting of current month.');
     nextMeeting = getMondaysOfMonth(nextMeetingMonth, nextMeetingYear)[3];
-    console.log('Next meeting found.');
+    console.log('Next meeting found:');
     console.log(nextMeeting);
     console.log('Checking, if found meeting of this month is already over.');
+    console.log('Time of found meeting this month:');
     console.log(nextMeeting.getTime());
+    console.log('Time of current date:');
     console.log(currentDate.getTime());
     if (nextMeeting.getTime() < currentDate.getTime()) {
         console.log('Meeting this month is over.');
@@ -126,14 +122,19 @@ function getNextMeeting() {
             console.log(nextMeeting);
         }
     }
-    // Convert to string, like:
-    // Mon Sep 22 2014 19:00:00 GMT+0200 (CEST)
-    // nextMeeting = nextMeeting.toString();
-    nextMeeting = toRFC2822String(nextMeeting);
-    // nextMeeting = toISO8601String(nextMeeting);
-    // ISO8601 string in UTC timezone, like:
-    // 2014-09-22T17:00:00.000Z
-    // nextMeeting = nextMeeting.toISOString();
+    if (nextMeeting === undefined || nextMeeting === null) {
+        nextMeeting = 'ERROR: Cannot convert undefined or null date string.';
+    }
+    else {
+      // Convert to string, like:
+      // Mon Sep 22 2014 19:00:00 GMT+0200 (CEST)
+      // nextMeeting = nextMeeting.toString();
+      nextMeeting = toRFC2822String(nextMeeting);
+      // nextMeeting = toISO8601String(nextMeeting);
+      // ISO8601 string in UTC timezone, like:
+      // 2014-09-22T17:00:00.000Z
+      // nextMeeting = nextMeeting.toISOString();
+    }
     console.log('Final value of next meeting:');
     console.log(nextMeeting);
     console.log('Leaving function getNextMeeting.');
