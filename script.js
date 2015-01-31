@@ -3,10 +3,6 @@
 // Firefox >= 20.0.x. Shortcut to open error console is
 // Ctrl+Shfit+J or F12.
 //
-// TO BE DONE:
-// Currently algorithm fails for meetings in February for unknown
-// reason.
-// 
 
 
 function getMondaysOfMonth(month, year) {
@@ -15,26 +11,30 @@ function getMondaysOfMonth(month, year) {
     console.log('Inside function getMondaysOfMonth.');
     currentDate.setMonth(month);
     currentDate.setFullYear(year);
-    // Start at the first day of a month.
+    // setDate() sets the day of a month starting at 1.
+    // We start at the first day of a month.
     currentDate.setDate(1);
-    console.log('First day of month ' + month
-        + ' that is checked for next meeting:');
-    console.log(currentDate);
-    // Get the first Monday in the month.
+    console.log('Month ' + month + ' of year ' + year + ' is checked for next meeting:');
+    // Get first Monday in month.
+    // getDay() returns day of week, with Sunday = 0 and Saturday = 6.
     while (currentDate.getDay() !== 1) {
+        console.log('Getting first Monday of month.');
         currentDate.setDate(currentDate.getDate() + 1);
     }
-    // Meeting time is always at 19:00:00:00 locale time.
+    // Meeting time is always at 19:00:00:000 locale time.
     currentDate.setHours(19);
     currentDate.setMinutes(00);
     currentDate.setSeconds(00);
-    currentDate.setMilliseconds(00);
+    currentDate.setMilliseconds(000);
+    // No idea why next line is neccessary.
+    currentDate.setMonth(month);
     // Get all the other Mondays in the month.
     while (currentDate.getMonth() === month) {
+        console.log('Getting all Mondays of month.');
         mondays.push(new Date(currentDate.getTime()));
         currentDate.setDate(currentDate.getDate() + 7);
     }
-    console.log('Found first 4 mondays of months ' + month + ':');
+    console.log('Found mondays of month ' + month + ' of year ' + year + ':');
     console.log(mondays);
     console.log('Leaving function getMondaysOfMonth.');
     return mondays;
@@ -89,7 +89,7 @@ function getNextMeeting() {
     var nextMeetingMonth = null;
     var nextMeetingYear = null;
     // Test with a fixed date.
-    // currentDate = new Date(2015, 0, 19, 19, 01, 00, 00);
+    // currentDate = new Date(2015, 00, 12, 19, 01, 00, 00);
     console.log('Inside function getNextMeeting.');
     console.log('Current date:');
     console.log(currentDate);
@@ -99,41 +99,43 @@ function getNextMeeting() {
     nextMeeting = getMondaysOfMonth(nextMeetingMonth, nextMeetingYear)[3];
     console.log('Next meeting found:');
     console.log(nextMeeting);
-    console.log('Checking, if found meeting of this month is already over.');
-    console.log('Time of found meeting this month:');
-    console.log(nextMeeting.getTime());
-    console.log('Time of current date:');
-    console.log(currentDate.getTime());
-    if (nextMeeting.getTime() < currentDate.getTime()) {
-        console.log('Meeting this month is over.');
-        if (currentDate.getMonth() < 11) {
-            console.log('Current month < 11.');
-            nextMeetingMonth = currentDate.getMonth() + 1;
-            nextMeeting = getMondaysOfMonth(nextMeetingMonth, nextMeetingYear)[3];
-            console.log('Next meeting of next month.');
-            console.log(nextMeeting);
+    if (nextMeeting !== undefined && nextMeeting !== null) {
+        console.log('Checking, if found meeting of this month is already over.');
+        console.log('Time of found meeting this month:');
+        console.log(nextMeeting.getTime());
+        console.log('Time of current date:');
+        console.log(currentDate.getTime());
+        if (nextMeeting.getTime() < currentDate.getTime()) {
+            console.log('Meeting this month is over.');
+            if (currentDate.getMonth() < 11) {
+                console.log('Current month < 11.');
+                nextMeetingMonth = currentDate.getMonth() + 1;
+                nextMeeting = getMondaysOfMonth(nextMeetingMonth, nextMeetingYear)[3];
+                console.log('Found next meeting in next month:');
+                console.log(nextMeeting);
+            }
+            else if (currentDate.getMonth() === 11) {
+                console.log('Current month = 11.');
+                nextMeetingMonth = 0;
+                nextMeetingYear = currentDate.getFullYear() + 1;
+                nextMeeting = getMondaysOfMonth(nextMeetingMonth, nextMeetingYear)[3];
+                console.log('Found next meeting in first month of next year:');
+                console.log(nextMeeting);
+            }
         }
-        else if (currentDate.getMonth() === 11) {
-            console.log('Current month = 11.');
-            nextMeetingMonth = 0;
-            nextMeetingYear = currentDate.getFullYear() + 1;
-            nextMeeting = getMondaysOfMonth(nextMeetingMonth, nextMeetingYear)[3];
-            console.log('Next meeting of first month of next year.');
-            console.log(nextMeeting);
-        }
+    }
+    if (nextMeeting !== undefined && nextMeeting !== null) {
+        // Convert to string, like:
+        // Mon Sep 22 2014 19:00:00 GMT+0200 (CEST)
+        // nextMeeting = nextMeeting.toString();
+        nextMeeting = toRFC2822String(nextMeeting);
+        // nextMeeting = toISO8601String(nextMeeting);
+        // ISO8601 string in UTC timezone, like:
+        // 2014-09-22T17:00:00.000Z
+        // nextMeeting = nextMeeting.toISOString();
     }
     if (nextMeeting === undefined || nextMeeting === null) {
         nextMeeting = 'ERROR: Cannot convert undefined or null date string.';
-    }
-    else {
-      // Convert to string, like:
-      // Mon Sep 22 2014 19:00:00 GMT+0200 (CEST)
-      // nextMeeting = nextMeeting.toString();
-      nextMeeting = toRFC2822String(nextMeeting);
-      // nextMeeting = toISO8601String(nextMeeting);
-      // ISO8601 string in UTC timezone, like:
-      // 2014-09-22T17:00:00.000Z
-      // nextMeeting = nextMeeting.toISOString();
     }
     console.log('Final value of next meeting:');
     console.log(nextMeeting);
