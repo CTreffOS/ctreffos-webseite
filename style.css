@@ -11,6 +11,8 @@ body {
 	padding: 25px;
 	border-left: 1px solid gray;
 	border-right: 1px solid gray;
+	font-family: sans-serif;
+	font-size: 1.1em;
 }
 
 dt {
@@ -19,7 +21,12 @@ dt {
 }
 
 dl {
-	margin-top: 30px;
+	margin: 30px 150px;
+}
+
+dd ul, dd ul li {
+	margin-left: 0px;
+	padding-left: 0px;
 }
 
 a, a:hover {
@@ -41,4 +48,9 @@ header {
 
 .small {
 	font-size: smaller;
+}
+
+.alert {
+	color: red;
+	font-weight: bold;
 }
