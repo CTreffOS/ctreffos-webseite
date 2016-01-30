@@ -9,11 +9,11 @@ function getMondaysOfMonth(month, year) {
     var currentDate = new Date();
     var mondays = [];
     console.log('Inside function getMondaysOfMonth.');
-    currentDate.setMonth(month);
     currentDate.setFullYear(year);
     // setDate() sets the day of a month starting at 1.
     // We start at the first day of a month.
     currentDate.setDate(1);
+    currentDate.setMonth(month);
     console.log('Month ' + month + ' of year ' + year + ' is checked for next meeting:');
     // Get first Monday in month.
     // getDay() returns day of week, with Sunday = 0 and Saturday = 6.
@@ -26,7 +26,6 @@ function getMondaysOfMonth(month, year) {
     currentDate.setMinutes(00);
     currentDate.setSeconds(00);
     currentDate.setMilliseconds(000);
-    // No idea why next line is neccessary.
     currentDate.setMonth(month);
     // Get all the other Mondays in the month.
     while (currentDate.getMonth() === month) {
