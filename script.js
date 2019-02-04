@@ -5,16 +5,34 @@
 // Function to return a date object from the fourth monday of given year and month
 function getMeetingOfYearMonth(year, month) {
     var date = new Date(year, month, 1);
-
-    // Find first monday.
-    while (date.getDay() !== 1) {
+    var today = new Date();
+    
+    // find first thursday
+    while (date.getDay() !== 4) {
         date.setDate(date.getDate() + 1);
     }
+    
+    // When on day or before meeting, return the date
+    if (today.getDay() <= date.getDay()) {
+    	return setTime(date);
+    }
 
-    // Get fourth monday.
-    date.setDate(date.getDate() + 3*7);
+    // Or get the third Thursday
+    date.setDate(date.getDate() + 2*7);
+    if (today.getDay() <= date.getDay()) {
+        return setTime(date);
+    } else { // If third Thursday has passed, get the next month
+	// check if we are in december, then choose next year
+	if (today.getMonth() == 11) {
+	    return getMeetingOfYearMonth(today.getYear() + 1, 0);
+	} else {
+            return getMeetingOfYearMonth(today.getYear(), today.getMonth()+1);
+	}
+    }
+}
 
-    // Meeting time is always at 19:00:00:000 local time.
+// Function to set the time to 19:00 local time
+function setTime(date) {
     date.setHours(19);
     date.setMinutes(0);
     date.setSeconds(0);
@@ -23,22 +41,29 @@ function getMeetingOfYearMonth(year, month) {
     return date;
 }
 
-
 // Function to set the date for the next meeting
 function setNextMeeting() {
     var today = new Date();
-    console.log('Today is ' + today + '.');
 
     // Get date of meeting from this month.
     var date = getMeetingOfYearMonth(today.getFullYear(), today.getMonth());
-    console.log('Meeting this month is ' + date + '.');
 
-    // If meeting this month is over, take the one from the next month.
-    if (date.getTime() < today.getTime()) {
-        console.log('Meeting this month is over.');
-        date = getMeetingOfYearMonth(today.getFullYear(), today.getMonth() + 1);
-    }
+    var meetingLocation = getLocation(date);
 
-    console.log('Next meeting is: ' + date + '.');
     document.getElementById('nextMeeting').innerHTML = date;
+    document.getElementById('nextMeetingLocation').innerHTML = meetingLocation;
 }
+
+// Function to get the location
+function getLocation(date) {
+    // Since we meet on thursdays the first meeting must happen before the 10th every
+    // month 
+    if (date.getDate() <= 10) {
+        // js-Date is funny. January = 0, February = 1... So (% 2 == 1) gets even months
+        if (date.getMonth() % 2 == 0) {
+	   return "Bridgeclub Osnabrück";
+	}
+    }
+    return "Zauber von OS"
+}
+
