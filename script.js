@@ -56,14 +56,17 @@ function setNextMeeting() {
 
 // Function to get the location
 function getLocation(date) {
+    var today = new Date();
     // Since we meet on thursdays the first meeting must happen before the 10th every
-    // month 
+    // month
     if (date.getDate() <= 10) {
-        // js-Date is funny. January = 0, February = 1... So (% 2 == 1) gets even months
-        if (date.getMonth() % 2 == 0) {
-	   return "Bridgeclub Osnabrück";
+        if (today.getDate() <= date.getDay()) {
+	   // js-Date is funny. January = 0, February = 1... So (% 2 == 1) gets even months
+	   if (date.getMonth() % 2 == 1) {
+	      return "Zauber von OS";
+	   }
 	}
     }
-    return "Zauber von OS"
+    return "Bridgeclub Osnabrück"
 }
 
