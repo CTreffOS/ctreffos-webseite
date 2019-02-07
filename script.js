@@ -60,12 +60,12 @@ function getLocation(date) {
     // Since we meet on thursdays the first meeting must happen before the 10th every
     // month
     if (date.getDate() <= 10) {
-        if (today.getDate() <= date.getDay()) {
-	   // js-Date is funny. January = 0, February = 1... So (% 2 == 1) gets even months
-	   if (date.getMonth() % 2 == 1) {
-	      return "Zauber von OS";
-	   }
-	}
+        if (today.getDate() <= date.getDate()) {
+	        // js-Date is funny. January = 0, February = 1... So (% 2 == 1) gets even months
+	        if (date.getMonth() % 2 == 1) {
+	            return "Zauber von OS";
+	        }
+	    }
     }
     return "Bridgeclub Osnabrück"
 }
