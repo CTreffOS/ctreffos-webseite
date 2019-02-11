@@ -6,20 +6,20 @@
 function getMeetingOfYearMonth(year, month) {
     var date = new Date(year, month, 1);
     var today = new Date();
-    
+   
     // find first thursday
     while (date.getDay() !== 4) {
         date.setDate(date.getDate() + 1);
     }
     
     // When on day or before meeting, return the date
-    if (today.getDay() <= date.getDay()) {
+    if (today.getDate() <= date.getDate()) {
     	return setTime(date);
     }
 
     // Or get the third Thursday
     date.setDate(date.getDate() + 2*7);
-    if (today.getDay() <= date.getDay()) {
+    if (today.getDate() <= date.getDate()) {
         return setTime(date);
     } else { // If third Thursday has passed, get the next month
 	// check if we are in december, then choose next year
