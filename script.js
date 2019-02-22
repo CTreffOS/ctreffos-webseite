@@ -13,20 +13,19 @@ function getMeetingOfYearMonth(year, month) {
     }
     
     // When on day or before meeting, return the date
-    if (today.getDate() <= date.getDate()) {
+    if (today <= date) {
     	return setTime(date);
     }
-
     // Or get the third Thursday
     date.setDate(date.getDate() + 2*7);
-    if (today.getDate() <= date.getDate()) {
+    if (today <= date) {
         return setTime(date);
     } else { // If third Thursday has passed, get the next month
 	// check if we are in december, then choose next year
 	if (today.getMonth() == 11) {
-	    return getMeetingOfYearMonth(today.getYear() + 1, 0);
+	    return getMeetingOfYearMonth(today.getFullYear() + 1, 0);
 	} else {
-            return getMeetingOfYearMonth(today.getYear(), today.getMonth()+1);
+            return getMeetingOfYearMonth(today.getFullYear(), today.getMonth()+1);
 	}
     }
 }
