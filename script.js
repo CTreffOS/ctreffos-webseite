@@ -60,7 +60,7 @@ function getLocation(date) {
             }
         }
     }
-    // We have either the first Thursday of an even month or the third Thursday of any month
+    // We have either the first Thursday of an odd month or the third Thursday of any month
     return "Bridge Club Osnabrück e.V."
 }
 
