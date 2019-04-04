@@ -4,8 +4,12 @@
 
 // Function to return a date object from the first Thursday of a given year and month
 function getMeetingOfYearMonth(year, month) {
+    // We start searching for next meeting on first day of the month
     var date = new Date(year, month, 1);
     var today = new Date();
+
+    // Sync time of "today" with time of "date"
+    today.setHours(0, 0, 0, 0);
    
     // Find first Thursday with Monday = 1, Tuesday = 2...
     while (date.getDay() !== 4) {
@@ -13,6 +17,7 @@ function getMeetingOfYearMonth(year, month) {
     }
     
     // When on or before meeting (first Thursday), return the date
+    debugger;
     if (today <= date) {
         return setTime(date);
     }
@@ -20,6 +25,7 @@ function getMeetingOfYearMonth(year, month) {
     // We are after first Thursday, so get the third Thursday
     date.setDate(date.getDate() + 2 * 7);
     // When on or before meeting (third Thursday), return the date
+    debugger;
     if (today <= date) {
         return setTime(date);
     }
@@ -31,17 +37,14 @@ function getMeetingOfYearMonth(year, month) {
         }
         // We are not in December, so get next meeting from this year but next month
         else {
-             return getMeetingOfYearMonth(today.getFullYear(), today.getMonth() + 1);
+            return getMeetingOfYearMonth(today.getFullYear(), today.getMonth() + 1);
         }
     }
 }
 
 // Function to set the time of our next meeting to 19:00 local time
 function setTime(date) {
-    date.setHours(19);
-    date.setMinutes(0);
-    date.setSeconds(0);
-    date.setMilliseconds(0);
+    date.setHours(19, 0, 0, 0);
     return date;
 }
 
@@ -50,17 +53,21 @@ function getLocation(date) {
     var today = new Date();
 
     // Since we meet on Thursdays the first meeting is before the 7th every month
+    debugger;
     if (date.getDate() < 7) {
         // Check, if we are before next meeting this or previous month
+        debugger;
         if (today.getDate() <= date.getDate() || today.getMonth() + 1 == date.getMonth()) {
             // Check, if we have an even month like February, April, June...
             // js-Date is funny. January = 0, February = 1... So (% 2 == 1) gets even months
+            debugger;
             if (date.getMonth() % 2 == 1) {
                 return "Zauber von OS";
             }
         }
     }
     // We have either the first Thursday of an odd month or the third Thursday of any month
+    debugger;
     return "Bridge Club Osnabrück e.V."
 }
 
@@ -68,6 +75,7 @@ function getLocation(date) {
 function setNextMeeting() {
     var today = new Date();
 
+    debugger;
     // Get date of next meeting this month
     var date = getMeetingOfYearMonth(today.getFullYear(), today.getMonth());
     // Get location of next meeting
