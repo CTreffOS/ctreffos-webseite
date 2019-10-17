@@ -1,107 +1,167 @@
 <!DOCTYPE html>
-<html lang=de>
-<head>
-	<title>Chaostreff Osnabrück e.V.</title>
-	<meta http-equiv=content-type content="text/html; charset=utf-8" />
-	<meta name=viewport content="width=device-width, initial-scale=1" />
-	<meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
-	<meta http-equiv="pragma" content="no-cache" />
-	<meta http-equiv="expires" content="0" />
-	<link rel="shortcut icon" type=image/x-icon href=favicon.ico />
-	<link rel=stylesheet type=text/css href=style.css />
-	<script type=application/javascript src=script.js> </script>
-</head>
 
-<body onload="setNextMeeting();">
+<html lang="de-DE">
 
-<div id=langln>
-	<a href=index.html>de</a>
-	<a href=index-en.html>en</a>
-</div>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="UTF-8" /> 
+        <meta name="viewport" content="width=device-width" />  
+        <link rel="stylesheet" href="style.css" />
+        <script type=application/javascript src=script.js></script>
+        <title>Chaostreff Osnabrück</title>
+        <link rel="shortcut icon" type=image/x-icon href=favicon.ico />
+    </head>
 
-<header>
-	<img src=ctreffos-logo.png alt="Chaostreff Osnabrück Logo" />
-</header>
 
-<p>
-Der Chaostreff Osnabrück e.V. ist eine lockere Gruppe von Leuten mit Interesse in
-den Bereichen Sicherheit, Kryptografie, alternative Betriebssysteme, freie
-Software, Netzpolitik und vielen weiteren Themen.
-</p>
+    <body onload="setNextMeeting();">
 
-<p>
-Interessierte sind bei unseren regelmäßigen Treffen jederzeit herzlich willkommen.
-</p>
+        <header>
 
-<dl>
-	<dt>Nächstes Treffen</dt>
-	<dd><span id=nextMeeting></span></dd>
-	<dd>im <span id=nextMeetingLocation></span></dd>
+            <nav>
+                <ul>
+                    <li><a href="index.html">deutsch</a></li>
+                    <li><a href="index-en.html">englisch</a></li>
+                    <li><a href="index-nerd.html">nerd</a></li>
+                </ul>
+            </nav>
 
-	<dt>Regelmäßige Treffen</dt>
-	<dd><ul>
-		<li>Jeden ersten Donnerstag des Monats treffen wir uns um 19:00 Uhr abwechselnd
-                im
-		<a href="http://www.openstreetmap.org/?mlat=52.26760&mlon=8.05827#map=18/52.26760/8.05827">Zauber von OS, Dammstraße 2, 49084 Osnabrück</a>
-                <b>(gerader Monat)</b>
-                oder im
-		<a href="https://www.openstreetmap.org/?mlat=52.26944&mlon=8.09767#map=18/52.26944/8.09767&layers=N">Bridge Club Osnabrück e.V., Mindener Str. 205, 49084 Osnabrück</a>
-                <b>(ungerader Monat)</b>
-		</li>
-		<li>Jeden dritten Donnerstag des Monats treffen wir uns um 19:00 Uhr im
-		<a href="https://www.openstreetmap.org/?mlat=52.26944&mlon=8.09767#map=18/52.26944/8.09767&layers=N">Bridge Club Osnabrück e.V., Mindener Str. 205, 49084 Osnabrück</a>
-		</li>
-	</ul></dd>
-	
-	<dt>Kalender</dt>
-	<dd>Alle Termine der nächsten Monate können online angesehen, als
-	iCalendar abonniert oder als .ics-Datei heruntergeladen werden:
-	<a href="https://vc1.brainfact.de/cloud/index.php/apps/calendar/p/PPIDITDG565PX06S/Chaostreff-Osnabrck">zu unserem Kalender</a></dd>
 
-	<dt>Mailingliste</dt>
-	<dd><a href="https://lists.chaostreff-osnabrueck.de">Ankündigungen, Diskussionen, ...</a></dd>
+            <div>
+                <div style="background-color:#000055; margin: 0 -20em; padding: 5em 0 "></div>
+                <img style="height:10em; margin: -5em 10em 0 0; background:white; padding: 1em" src="chaostreffos-logo.png">
+            </div>
+            <nav>
+                <ul style="margin-bottom: 4em">
+                    <li ><a href="#termine">Termine</a></li>
+                    <li ><a href="#projekte">Projekte</a></li>
+                    <li ><a href="#mitmachen">Mitmachen</a></li>
+                    <li ><a href="#kontakt">Kontakt</a></li>
+                    <li><a href="#werkstatt">Werkstatt</a></li>
+                    <li><a href="#wiki">Wiki</a></li>
+                </ul>
+                <nav>
+        </header>
 
-	<dt>E-Mail</dt>
-	<dd><ul>
-		<li><a href="mailto:info@chaostreff-osnabrueck.de">Kontakt unabhängig von unserer Mailingliste</a></li>
-		<li><a href="mailto:presse@chaostreff-osnabrueck.de">Presseanfragen</a></li>
-	</ul></dd>
+        <div>
+            <h1>Chaostreff Osnabrück</h1>
+            <p> Der Chaostreff Osnabrück e.V. ist eine lockere Gruppe von Leuten mit Interesse in den Bereichen Sicherheit, Kryptografie, alternative Betriebssysteme, freie Software, Netzpolitik und vielen weiteren Themen.
 
-	<dt>Github</dt>
-	<dd><a href=https://github.com/CTreffOS>github.com/CTreffOS</a></dd>
+            Interessierte sind bei unseren regelmäßigen Treffen jederzeit herzlich willkommen. 
+            </p>
 
-	<dt>Wiki</dt>
-	<dd><a href="https://wiki.chaostreff-osnabrueck.de">Projekte, Vorträge und Planungen, ...</a></dd>
+            <!-- Termine -->
 
-	<dt>Jabber</dt>
-	<dd>Besucher sind willkommen beim <a href="xmpp:public@conference.jabber.chaostreff-osnabrueck.de?join">öffentlichen MUC</a></dd>
+            <h2 id="termine">Termine</h2>
 
-	<dt>IRC-Channel</dt>
-	<dd>#ctreffos auf <a href="https://freenode.net">freenode.net</a></dd>
+            <strong>Nächstes Treffen</strong> 
+            <dd><span id=nextMeeting></span></dd>
+        	<dd>im <span id=nextMeetingLocation></span></dd>
 
-	<dt>Twitter</dt>
-	<dd><a href="https://twitter.com/ctreffos">@ctreffos</a></dd>
+            Jeden ersten Donnerstag des Monats treffen wir uns um 19:00 Uhr abwechselnd im <a href="http://www.openstreetmap.org/?mlat=52.26760&mlon=8.05827#map=18/52.26760/8.05827">Zauber von OS, Dammstraße 2, 49084 Osnabrück</a> (gerader Monat) oder im <a href="https://www.openstreetmap.org/?mlat=52.26944&mlon=8.09767#map=18/52.26944/8.09767&layers=N">Bridge Club Osnabrück e.V., Mindener Str. 205, 49084</a> (ungerader Monat).
+            Jeden dritten Donnerstag des Monats treffen wir uns um 19:00 Uhr im <a href="https://www.openstreetmap.org/?mlat=52.26944&mlon=8.09767#map=18/52.26944/8.09767&layers=N">Bridge Club Osnabrück e.V., Mindener Str. 205, 49084</a>.
 
-	<dt>Mastodon</dt>
-	<dd><a href="https://chaos.social/@chaostreff_osnabrueck">@chaostreff_osnabrueck</a></dd>
+            </p>
 
-	<dt>Projekte</dt>
-	<dd><ul>
-		<li><a href="chaostalks.html">chaOStalks</a></li>
-		<li><a href="https://codingchaos.chaostreff-osnabrueck.de/">codingchaOS</a></li>
-		<li><a href="downloads/offenerBrief_offeneDaten.pdf">Stellungnahme zur Informationsfreiheitssatzung</a></li>
-		<li><a href="https://niedersachsentrojaner.de/">#noNPOG Bündnis</a></li>
-	</ul></dd>
+            <!-- Projekte -->
 
-</dl>
+            <h2 id="projekte">Projekte</h2>
 
-<hr>
+            Wir haben eine Reihe von Projekten, an denen wir mehr oder weniger regelmäßig arbeiten. Grundsätzlich gilt: Alles, was wir tun, ist ehrenamtlich und wir machen das, weil es uns am Herzen liegt. Du hast Ideen für Projekte oder möchtest uns anfragen? Schreibe gerne eine Mail oder komm einfach zu einem unserer Treffen.
 
-<div align="left"> 
-<a href="site-notice.html">Impressum</a>
-<a href="privacy-policy.html">Datenschutzerklärung</a>
-<a href="legal-notice.html">Rechtliche Hinweise</a>
-</div> 
+            <h3>chaOStalks</h3>
 
-</body>
+            <p>Wir veranstalten regelmäßig die chaOStalks. Die bisherigen Vorträge wurden alle aufgezeichnet und stehen auf der Plattform media.ccc.de zur Verfügung. Ein Klick auf den Vortrag bringt dich zum Video.
+            <ol>
+                <li><strong>#1 </strong>Politische Lösungen für technische Probleme mit <a href="https://media.ccc.de/v/ChaOStalk-1-Linus-Neumann">Linus Neumann</a> (27.11.2015)</li>
+                <li><strong>#2 </strong>#NSAUA mit <a href="https://media.ccc.de/v/chaostalk-2.1-NSAUA">Anna Biselli</a> und <a href="https://media.ccc.de/v/chaostalk-2.2-NSAUA">Prof. Martin "maha" Haase</a> (22.04.2016)</li>
+                <li><strong>#3 </strong>#SearchWing mit <a href="https://media.ccc.de/v/chaostalk-3-searchwing">Andreas "Steini" Steinhauser</a> (29.06.2017)</li>
+                <li><strong>#4 </strong>Künstliche Intelligenz & Neuronale Netze mit <a href="https://media.ccc.de/v/chaostalk-4.2-Kuenstliche-Intelligenz">Prof. Dr. Joachim Hertzberg</a> und <a href="https://media.ccc.de/v/chaostalk-4.1-Kuenstliche-Intelligenz">Volker Strübing</a> (18.01.2019)</li>
+            </ol>
+            </p>
+
+            <h3>Chaos macht Schule</h3>
+
+            Chaos macht Schule ist eine seit etwa 2007 bestehende Initiative mehrerer Erfa-Kreise des Chaos Computer Clubs (CCC), die mit verschiedenen Bildungsinstitutionen zusammenarbeiten. Ziel des Projekts ist es, Schüler, Eltern und Lehrer in den Bereichen Medienkompetenz und Technikverständnis zu stärken.
+
+            <h3>codingchaOS</h3>
+
+            <p>
+            Gemeinsam mit der Fachschaft Mathematik/Informatik organisieren wir das codingchaOS: Ein Wettbewerb, bei dem es darum geht, möglichst schnell, kurz und elegant kleine Programmieraufgaben zu lösen und dafür möglichst viele Punkte zu bekommen.
+            </p>
+
+            <h3>Netzpolitik</h3>
+            <p>
+            <ul>
+                <li><strong>Informationsfreiheit </strong>Wir haben zusammen mit Code for Osnabrück den offenen Brief für offene Daten an Mitglieder des Osnabrücker Stadtrats geschrieben, um uns für eine Informationsfreiheitssatzung stark zu machen. Und es hat funktioniert! Hier findet ihr die aktuelle Fassung der ersten Osnabrücker Informationsfreiheitssatzung.
+                </li>
+                <li><strong>NoNPOG </strong>Wir haben gegen das neue niedersächsische Polizei- und Ordnungsgesetz protestiert. Zur Bündnis-Website geht es hier.
+                </li>
+            </ul>
+
+            </p>
+
+            <h3>Material</h3>
+            <p>
+            <ul>
+                <li><strong><a href="github.com/CTreffOS">Github</a></strong></li>
+                <li><strong><a href="https://wiki.chaostreff-osnabrueck.de">Wiki</a></strong></li>
+            </ul>
+            </p>
+
+
+            <!-- Mitmachen -->
+            <h2 id="mitmachen">Mitmachen</h2>
+            <p>
+            Wir sind 
+
+            Wir sind ein eingetragener Verein und haben aktuell rund 15 Mitglieder.
+
+            Außerdem freuen wir uns über Unterstützung, egal ob durch Geld, Wissen oder vielleicht sogar einen Raum. Wir träumen nämlich schon länger von einem eigenen Hackspace und suchen dafür Räumlichkeiten, die Internet bieten (so schnell wie möglich), möglichst erreichbar von Innenstadt und Bahnhof aus, bezahlbar und abschließbar sind. Toiletten und Heizung wären super, dann sind wir schon ziemlich happy. Also: Melde sich, wer was kennt!
+            </p>
+            <!-- Kontakt -->
+            <h2 id="kontakt">Kontakt</h2>
+            <p>
+            <ul>
+                <li><strong>Mailingliste: </strong>Wir kommunizieren über eine offene Mailingliste. Hier gibt es Einladungen zu unseren Treffen und andere Infos. Ihr könnt aber auch eure Fragen loswerden oder diskutieren. <a href=https://lists.chaostreff-osnabrueck.de/cgi-bin/mailman/listinfo/>Klick dich rein!</a></li>
+
+                <li><strong>Fragen? Wünsche? Anregungen? </strong>Bitte
+                    <a href="mailto:info@chaostreff-osnabrueck.de?Subject=Hallo" target="_top">hier entlang</a>!
+                </li>
+
+                <li>
+                    <strong>Presseanfragen</strong> werden gerne <a href="mailto:presse@chaostreff-osnabrueck.de?Subject=Hallo" target="_top">hier entgegen genommen</a>.
+                </li>
+                <li>
+                    <strong>Jabber: </strong> Komm in unseren <a href="xmpp:public@conference.jabber.chaostreff-osnabrueck.de?join">öffentlichen Channel</a>
+                </li>
+                <li>
+                    <strong>IRC-Channel: </strong>Auf IRC findest du uns unter #ctreffos auf <a href="https://freenode.net">freenode.net</a>
+                </li>
+            </ul>
+            </p>
+
+            <!-- Werkstatt -->
+            <h2 id="werkstatt">Werkstatt</h2>
+            <p>
+            Na gut, eine ganze Werkstatt haben wir noch nicht. Aber wir können Löten und haben Werkzeug, um Dinge zu reparieren oder auseinanderzunehmen - und bald hoffentlich auch einen 3D-Drucker.
+            </ul>
+            </p>
+
+            <!-- Wiki -->
+            <h2 id="wiki">Wiki</h2>
+            <p>
+            Das Wiki ist intern. Damit du freigeschaltet wirst, müssen wir dich kennen. Komm doch einfach mal zu einem unserer Treffen, wenn du dich dafür interessierst.
+            </p>
+        </div>
+        <!-- Footer -->
+        <nav style="margin-top: 4em">
+            <ul style="text-align:center">		
+                <li><a href="impressum.html">Impressum</a></li>
+                <li><a href="privacy-policy.html">Datenschutz</a></li>
+                <li><a href="legal-notice.html">Rechtliche Hinweise</a></li>
+            </ul>
+        </nav>
+
+    </body>
+
 </html>

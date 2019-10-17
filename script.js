@@ -39,7 +39,6 @@ function getMeetingOfYearMonth(year, month) {
         }
     }
 }
-
 // Function to set the time of our next meeting to 19:00 local time
 function setTime(date) {
     date.setHours(19, 0, 0, 0);

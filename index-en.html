@@ -1,104 +1,179 @@
 <!DOCTYPE html>
-<html lang=en>
-<head>
-	<title>Chaostreff Osnabrück e.V.</title>
-	<meta http-equiv=content-type content="text/html; charset=utf-8" />
-	<meta name=viewport content="width=device-width, initial-scale=1" />
-	<meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
-	<meta http-equiv="pragma" content="no-cache" />
-	<meta http-equiv="expires" content="0" />
-	<link rel="shortcut icon" type=image/x-icon href=favicon.ico />
-	<link rel=stylesheet type=text/css href=style.css />
-	<script type=application/javascript src=script.js> </script>
-</head>
-<body onload="setNextMeeting();">
-<div id=langln>
-	<a href=index.html>de</a>
-	<a href=index-en.html>en</a>
-</div>
-<header>
-	<img src=ctreffos-logo.png alt="Chaostreff Osnabrück Logo" />
-</header>
 
+<html lang="de-DE">
+
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="UTF-8" /> 
+        <meta name="viewport" content="width=device-width" />  
+        <link rel="stylesheet" href="style.css" />
+        <title>Chaostreff Osnabrück</title>
+        <script type=application/javascript src=script.js></script>
+        <link rel="shortcut icon" type=image/x-icon href=favicon.ico />
+    </head>
+
+
+    <body onload="setNextMeeting();">
+
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">deutsch</a></li>
+                    <li><a href="index-en.html">englisch</a></li>
+                    <li><a href="index-nerd.html">nerd</a></li>
+                </ul>
+            </nav>
+
+
+            <div>
+                <div style="background-color:#000055; margin: 0 -20em; padding: 5em 0 "></div>
+                <img style="height:10em; margin: -5em 10em 0 0; background:white; padding: 1em" src="chaostreffos-logo.png">
+            </div>
+            <nav>
+                <ul style="margin-bottom: 4em">
+                    <li ><a href="#termine">Termine</a></li>
+                    <li ><a href="#projekte">Projekte</a></li>
+                    <li ><a href="#mitmachen">Mitmachen</a></li>
+                    <li ><a href="#kontakt">Kontakt</a></li>
+                    <li><a href="#werkstatt">Werkstatt</a></li>
+                    <li><a href="#wiki">Wiki</a></li>
+                </ul>
+                <nav>
+        </header>
+
+        <div>
+            <h1>Chaostreff Osnabrück</h1>
+            <p> The Chaostreff Osnabrück e.V. is a loose group of people with interest in the areas of security, cryptography, alternative operating systems, free software, network policy and many other topics.
+
+            Interested people are always welcome at our regular meetings. 
+            </p>
+
+            <!-- Termine -->
+
+            <h2 id="termine">Meetings</h2>
+
+
+            <strong>Next meeting</strong>
+            <dd><span id=nextMeeting></span></dd>
+        	<dd>im <span id=nextMeetingLocation></span></dd>
+
+            Every first Thursday of the month we meet at 19:00 o'clock alternately in the magic of OS (even month) or at the Bridge Club Osnabrück e.V. (odd month)
+            Every third Thursday of the month we meet at 19:00 at the Bridge Club Osnabrück e.V.
+
+            </p>
+
+            <!-- Projekte -->
+
+            <h2 id="projekte">Projects</h2>
+
+            <p>
+            We have a number of projects on which we work more or less regularly. Basically, everything we do is voluntary and we do it because it is important to us. Do you have ideas for projects or would you like to contact us? Write us an email or just come to one of our meetings.
+            </p>
+
+            <h3>chaOStalks</h3>
+
+            <p>We organize the chaOStalks regularly. The previous lectures were all recorded and are available on the platform media.ccc.de. A click on the lecture brings you to the video.
+            <ol>
+                <li><strong>#1 </strong>Politische Lösungen für technische Probleme mit <a href="https://media.ccc.de/v/ChaOStalk-1-Linus-Neumann">Linus Neumann</a> (27.11.2015)</li>
+                <li><strong>#2 </strong>#NSAUA mit <a href="https://media.ccc.de/v/chaostalk-2.1-NSAUA">Anna Biselli</a> und <a href="https://media.ccc.de/v/chaostalk-2.2-NSAUA">Prof. Martin "maha" Haase</a> (22.04.2016)</li>
+                <li><strong>#3 </strong>#SearchWing mit <a href="https://media.ccc.de/v/chaostalk-3-searchwing">Andreas "Steini" Steinhauser</a> (29.06.2017)</li>
+                <li><strong>#4 </strong>Künstliche Intelligenz & Neuronale Netze mit <a href="https://media.ccc.de/v/chaostalk-4.2-Kuenstliche-Intelligenz">Prof. Dr. Joachim Hertzberg</a> und <a href="https://media.ccc.de/v/chaostalk-4.1-Kuenstliche-Intelligenz">Volker Strübing</a> (18.01.2019)</li>
+            </ol>
+            </p>
+
+            <h3>Chaos macht Schule</h3>
+
+            <p>
+            Chaos macht Schule is an initiative of several Erfa circles of the Chaos Computer Club (CCC), which have been working together with various educational institutions since 2007. The aim of the project is to strengthen pupils, parents and teachers in the areas of media competence and technical understanding.
+            </p>
+
+            <h3>codingchaOS</h3>
+
+            <p>
+            Together with the Student Council of Mathematics/Computer Science we organize the codingchaOS: A competition that aims to solve small programming tasks as quickly, briefly and elegantly as possible and to score as many points as possible.
+            </p>
+
+            <h3>Netzpolitik</h3>
+            <p>
+            <ul>
+                <li><strong>Freedom of Information</strong>We wrote together with Code for Osnabrück the open letter for open data to members of the city council of Osnabrück, in order to support a freedom of information statute. And it worked! Here you can find the current version of the first Osnabrück Freedom of Information Statute.
+                </li>
+                <li><strong>NoNPOG </strong>We protested against the new Lower Saxony Police and Ordnungsgesetz. Go to the Alliance website here.
+                </li>
+            </ul>
+
+            </p>
+
+            <h3>Material</h3>
+            <p>
+            <strong>Github: </strong>github.com/CTreffOS
+            </p>
+
+
+            <!-- Mitmachen -->
+            <h2 id="mitmachen">Join us</h2>
+            <p>
+            We are a registered association and currently have about 15 members.
+
+            In addition we are pleased about support, all the same whether by money, knowledge or perhaps even a space. We have been dreaming about our own hackspace for a long time and are looking for rooms that offer internet (as fast as possible), are as accessible as possible from the city centre and railway station, are affordable and lockable. Toilets and heating would be great, then we are quite happy. So: Let us know who knows what!
+
+            </p>
+            <!-- Kontakt -->
+            <h2 id="kontakt">Contact</h2>
 <p>
-The Chaostreff Osnabrück e.V. is a group of people interested in topics like
-security, cryptography, alternative operating systems, free (libre) software,
-internet related politics and what else comes to mind.
-</p>
 
-<p>
-People interested in our topics are welcome to our regular meetings.
-</p>
+ <ul>
+                <li><strong>Mailinglist: </strong>We communicate via an open mailing list. Here you can find invitations to our meetings and other information. You can also post your questions or discuss them. <a href=https://lists.chaostreff-osnabrueck.de/cgi-bin/mailman/listinfo/>Click in!</a></li>
 
-<dl>
-	<dt>Next meeting</dt>
-	<dd><span id=nextMeeting></span></dd>
-	<dd>in <span id=nextMeetingLocation></span></dd>
+                <li><strong>Questions? Wishes? Suggestions? </strong>Please
+                    <a href="mailto:info@chaostreff-osnabrueck.de?Subject=Hallo" target="_top">this way</a>!
+                </li>
 
-	<dt>Regular meetings</dt>
-	<dd><ul>
-		<li>Every first Thursday of a month we meet at 7 pm alternating at the
-		<a href="http://www.openstreetmap.org/?mlat=52.26760&mlon=8.05827#map=18/52.26760/8.05827">Zauber von OS, Dammstraße 2, 49084 Osnabrück</a>
-		<b>(even month)</b>
-		or at the
-		<a href="https://www.openstreetmap.org/?mlat=52.26944&mlon=8.09767#map=18/52.26944/8.09767&layers=N">Bridge Club Osnabrück e.V., Mindener Str. 205, 49084 Osnabrück</a>
-		<b>(odd month)</b>
-		</li>
-		<li>Every third Thursday of a month we meet at 7 pm at the
-		<a href="https://www.openstreetmap.org/?mlat=52.26944&mlon=8.09767#map=18/52.26944/8.09767&layers=N">Bridge Club Osnabrück e.V., Mindener Str. 205, 49084 Osnabrück</a>
-		</li>
-	</ul></dd>
+                <li>
+                    <strong>Press enquiries</strong> are welcome <a href="mailto:presse@chaostreff-osnabrueck.de?Subject=Hallo" target="_top">here </a>.
+                </li>
+                <li>
+                    <strong>Jabber: </strong> Come to our <a href="xmpp:public@conference.jabber.chaostreff-osnabrueck.de?join">public channel</a>
+                </li>
+                <li>
+                    <strong>IRC-Channel: </strong>On IRC you can find us under #ctreffos on <a href="https://freenode.net">freenode.net</a>
+                </li>
+            </ul>
+            </p>
 
-	<dt>Calendar</dt>
-	<dd>
-        All events of the next months can be viewed online, be
-	subscribed to as iCalendar or be downloaded as .ics file:
-	<a href="https://vc1.brainfact.de/cloud/index.php/apps/calendar/p/PPIDITDG565PX06S/Chaostreff-Osnabrck">to our calendar</a>
-	</dd>
+            <!-- Workshop -->
+            <h2 id="workshop">Tool box</h2>
+            <p>
+            All right, we don't have a whole garage yet. But this one is available in tools:
+            <ul>
+                <li>Digital multimeter, 250 V </li>
+                <li>desoldering pump</li>
+                <li>Network Repair Tools</li>
+                <li>Antistatic set: antistatic mat, wrist strap and earthing cable</li>
+                <li>560-piece heat shrink tubing set</li>
+                <li>Premium soldering station 60W (90-480°C)</li>
+                <li>10 colours insulating tape (0,13 x 15 mm x 10 m)</li>
+                <li>Repair tool set (156- pieces)</li>
+                <li>Solder wire 0.6 mm tin lead rosin (50g)</li>
+                <li>iFixit Pro Tech Toolkit for repairing and cleaning smartphones</li>
+            </ul>
+            </p>
 
-	<dt>Mailinglist</dt>
-	<dd><a href="https://lists.chaostreff-osnabrueck.de">Announcements, discussions, ...</a></dd>
+            <!-- Wiki -->
+            <h2 id="wiki">Wiki</h2>
+            <p>
+            The Wiki is internal. In order for you to be unlocked, we need to know you. Just come to one of our meetings if you are interested.
+            </p>
 
-	<dt>Email</dt>
-	<dd><ul>
-		<li><a href="mailto:info@chaostreff-osnabrueck.de">Contact apart from our mailing list</a></li>
-		<li><a href="mailto:presse@chaostreff-osnabrueck.de">Press requests</a></li>
-	</ul></dd>
+        <!-- Footer -->
+        <nav style="margin-top: 4em">
+            <ul style="text-align:center">		
+                <li><a href="impressum.html">Site notice</a></li>
+                <li><a href="privacy-policy.html">Privacy policy</a></li>
+                <li><a href="legal-notice.html">Legal notice</a></li>
+            </ul>
+        </nav>
 
-	<dt>Github</dt>
-	<dd><a href=https://github.com/CTreffOS>github.com/CTreffOS</a></dd>
+    </body>
 
-	<dt>Wiki</dt>
-	<dd><a href="https://wiki.chaostreff-osnabrueck.de">Projects, talks, planning, ...</a></dd>
-
-	<dt>Jabber</dt>
-	<dd>Visitors are welcome at the <a href="xmpp:public@conference.jabber.chaostreff-osnabrueck.de?join">public MUC</a></dd>
-
-	<dt>IRC channel</dt>
-	<dd>#ctreffos on <a href="https://freenode.net">freenode.net</a></dd>
-
-	<dt>Twitter</dt>
-	<dd><a href="https://twitter.com/ctreffos">@ctreffos</a></dd>
-
-	<dt>Mastodon</dt>
-	<dd><a href="https://chaos.social/@chaostreff_osnabrueck">@chaostreff_osnabrueck</a></dd>
-
-	<dt>Projects</dt>
-	<dd><ul>
-		<li><a href="chaostalks-en.html">chaOStalks</a></li>
-		<li><a href="https://codingchaos.chaostreff-osnabrueck.de">codingchaOS</a></li>
-		<li><a href="downloads/offenerBrief_offeneDaten.pdf">statement on the statute of the freedom of information</a></li>
-		<li><a href="https://niedersachsentrojaner.de/">#noNPOG Bündnis</a></li>
-	</ul></dd>
-</dl>
-
-<hr>
-
-<div align="left"> 
-<a href="site-notice-en.html">Site notice</a>
-<a href="privacy-policy-en.html">Privacy policy</a>
-<a href="legal-notice-en.html">Legal notice</a>
-</div> 
-
-</body>
 </html>
