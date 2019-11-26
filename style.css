@@ -113,3 +113,8 @@ color: rgba(17, 17, 19, 0.85); }
         color: #000;
 text-decoration: none; } }
 
+.alert {
+	color: red;
+	font-weight: bold;
+}
+
