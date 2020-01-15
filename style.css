@@ -1,8 +1,5 @@
 html {
     box-sizing: border-box;
-    --mainColor: #000055;
-    --linkColor: #666666;
-    --highlightColor: #3591ff;
 }
 
 *,
@@ -12,46 +9,55 @@ html {
     }
 
 * {
-    margin: 0;
-    padding: 0;
 outline: none; }
 
 body {
     font-family: serif;
     line-height: 1.5;
-    margin: 0 15em;
-    padding: 1.5em;
     text-align: justify;
     text-justify: auto;
 }
 
-@media screen and (max-width: 1200px) {
-    body {
-        margin-left: 4em;
-        margin-right: 4em;
+.container {
+    width: 50em;
+    margin: auto;
+    padding: 1em;
+}
+
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 25em;
+        margin: auto;
         padding: 1.5em;
     }
 }
 
-@media screen and (max-width:800px) {
-    body {
-        margin: 0 auto;
+@media screen and (max-width:400px) {
+    .container {
+        width: 18em;
+        margin: auto;
     }
 }
 
 a {
-    color: var(--mainColor); 
-    text-decoration: underline; 
-    text-decoration-color: var(--mainColor);
+box-shadow: #d5ffff 0 -0.6em 0 inset;
+text-decoration: none;
+color: #000
 }
 
 a:hover {
-color: var(--highlightColor); }
+box-shadow: #d5ffff 0 -2em 0 inset;
+}
+
+p {
+    hyphens: auto;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: sans-serif;
     text-rendering: optimizeLegibility;
-    color: var(--mainColor);
+    color: #97C1CC;
     line-height: 1.2;
     margin-top: 2em;
     margin-bottom: 8px;
@@ -97,7 +103,8 @@ time, small {
     display: inline-block;
     font-size: 87.5%;
     line-height: 1;
-color: rgba(17, 17, 19, 0.6); }
+    color: rgba(17, 17, 19, 0.6); 
+}
 
 figcaption, code, var, kbd {
     display: inline-block;
@@ -114,7 +121,8 @@ color: rgba(17, 17, 19, 0.85); }
 text-decoration: none; } }
 
 .alert {
-	color: red;
+	color: #CF7997;
 	font-weight: bold;
+    font-family: sans-serif;
 }
 
