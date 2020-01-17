@@ -90,7 +90,7 @@ ul, ol {
 nav ul {
     margin-left: 20px;
     margin-top: 2px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     text-align: right;
 }
 nav ul li {
@@ -141,8 +141,16 @@ color: rgba(17, 17, 19, 0.85); }
 text-decoration: none; } }
 
 .alert {
-	color: #CF7997;
+	color: #c95a57;
 	font-weight: bold;
     font-family: sans-serif;
 }
 
+.announcement {
+    color: #c95a57;
+    border: solid 1px #c95a57;
+    margin: 2em 1em;
+    padding: 1em;
+    font-size:110%;
+    text-align: left;
+}
