@@ -89,10 +89,20 @@ damit für den Betreiber einsehbar.
 </p>
 
 <p>
-Als Betreiber speichern wir allerdings keine Informationen über Sie
-bzw. die Videochats. Es wird nichts protokolliert bzw. gespeichert /
-mitgeschnitten. Sofern Sie uns als Betreiber nicht vertrauen haben Sie
-ebenfalls die Möglichkeit, Ihre eigene Jitsi Meet Instanz zu hosten.
+Als Betreiber speichern wir keine Informationen über Sie bzw. die
+Videochats. Es wird nichts protokolliert bzw.
+gespeichert/mitgeschnitten. Die Logging-Stufe ist soweit reduziert,
+dass nicht einmal die IP-Adressen der Nutzer gespeichert werden.
+Mit Hilfe des STUN-Servers können NAT-Clients ihre öffentliche
+IP-Adresse erfahren und sind anschließend in der Lage, eine direkte
+Kommunikationsverbindung zwischen Teilnehmern herzustellen. Unser
+Jitsi-Server nutzt folgende STUN-Server:
+stun.nextcloud.com:443 und meet-jit-si-turnrelay.jitsi.net:443.
+</p>
+
+<p>
+Sofern Sie uns als Betreiber nicht vertrauen, haben Sie ebenfalls
+die Möglichkeit, Ihre eigene Jitsi-Instanz zu hosten.
 </p>
 
 <h2>Registrierte Benutzer unseres Wikis</h2>
