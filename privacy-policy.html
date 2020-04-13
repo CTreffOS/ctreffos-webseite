@@ -93,11 +93,28 @@ Als Betreiber speichern wir keine Informationen über Sie bzw. die
 Videochats. Es wird nichts protokolliert bzw.
 gespeichert/mitgeschnitten. Die Logging-Stufe ist soweit reduziert,
 dass nicht einmal die IP-Adressen der Nutzer gespeichert werden.
+</p>
+
+<p>
 Mit Hilfe des STUN-Servers können NAT-Clients ihre öffentliche
 IP-Adresse erfahren und sind anschließend in der Lage, eine direkte
-Kommunikationsverbindung zwischen Teilnehmern herzustellen. Unser
-Jitsi-Server nutzt folgende STUN-Server:
+Kommunikationsverbindung zwischen Teilnehmern herzustellen. Technisch
+bedingt verwenden die beiden von uns betriebenen Jitsi-Server
+unterschiedliche STUN-Server: 
+</p>
+
+<p>
+<a href="https://jitsi.chaostreff-osnabrueck.de">jitsi.chaostreff-osnabrueck.de</a>
+nutzt folgende STUN-Server:
 stun.nextcloud.com:443 und meet-jit-si-turnrelay.jitsi.net:443.
+</p>
+
+<p>
+<a href="https://meet.osna.social">meet.osna.social</a>
+verwendet einen eigenen STUN-Server auf dem Jitsi-Server selbst.
+Dieser Jitsi-Server ist der kräftigere und ist für viele gleichzeitige
+Nutzer und Konferenzen ausgelegt. Er sollte daher bevorzugt verwendet
+werden.
 </p>
 
 <p>
