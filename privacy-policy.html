@@ -107,15 +107,16 @@ z.B. die zuletzt besuchten Konferenzen sowie den Anzeigenamen
 <p>
 Mit Hilfe des STUN-Servers können NAT-Clients ihre öffentliche
 IP-Adresse erfahren und sind anschließend in der Lage, eine direkte
-Kommunikationsverbindung zwischen Teilnehmern herzustellen. Technisch
-bedingt verwenden die beiden von uns betriebenen Jitsi-Server
-unterschiedliche STUN-Server: 
+Kommunikationsverbindung zwischen Teilnehmern herzustellen.
+Unsere beiden Jitsi-Server sind etwas unterschiedlich konfiguriert:
 </p>
 
 <p>
 <a href="https://jitsi.chaostreff-osnabrueck.de">jitsi.chaostreff-osnabrueck.de</a>
-nutzt folgende STUN-Server:
-stun.nextcloud.com:443 und meet-jit-si-turnrelay.jitsi.net:443.
+verwendet einen eigenen STUN-Server auf dem Jitsi-Server selbst.
+Aktuell ist die Erstellung eines neuen Raums nur nach
+Authentifizierung möglich. Der Server wird überwiegend zum Testen
+und für kleinere Konferenzen verwendet.
 </p>
 
 <p>

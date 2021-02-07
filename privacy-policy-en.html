@@ -101,19 +101,19 @@ and the display name of a user within a conference.
 <p>
 Any NAT client can determine its pulic IP address using an STUN server
 and can thereby establish a direct connection between participants.
-For technical reasons both Jitsi servers operated by us are using
-different STUN servers:
+Our two Jitsi servers are configured slighly different:
 </p>
 
 <p>
 <a href="https://jitsi.chaostreff-osnabrueck.de">jitsi.chaostreff-osnabrueck.de</a>
-uses following STUN servers:
-stun.nextcloud.com:443 and meet-jit-si-turnrelay.jitsi.net:443.
+uses an own STUN server running on the same server. The creation of a
+new room is currently possible only after authentication. This server
+is mainly used for testing and for smaller conferences.
 </p>
 
 <p>
 <a href="https://meet.osna.social">meet.osna.social</a>
-uses an own STUN server running the same server. This Jitsi server is
+uses an own STUN server running on the same server. This Jitsi server is
 the more powerful one und is dimensioned for many concurrent users and
 conferences. It should be used preferably.
 </p>
