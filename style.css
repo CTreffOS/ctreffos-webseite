@@ -15,10 +15,45 @@ body {
 	font-family: sans-serif;
 }
 
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #222;
+		color: #eee;
+	}
+
+	a, a:hover {
+		color: #eee;
+	}
+
+	a:hover {
+		color: #ccc;
+	}
+
+	.image {
+		filter: invert(100%);
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: #eee;
+		color: #222;
+	}
+
+	a, a:hover {
+		color: black;
+	}
+
+	a:hover {
+		color: gray;
+	}
+}
+
 @media only screen and (max-width: 500px) {
 	body {
 		font-size: 22px;
 	}
+
 }
 
 dt {
@@ -35,14 +70,6 @@ dl {
 dd ul, dd ul li {
 	margin-left: 0px;
 	padding-left: 0px;
-}
-
-a, a:hover {
-	color: black;
-}
-
-a:hover {
-	color: gray;
 }
 
 header {
