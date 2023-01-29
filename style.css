@@ -53,7 +53,10 @@ body {
 	body {
 		font-size: 22px;
 	}
-
+	footer a {
+		display: block;
+		width: 90%
+	}
 }
 
 dt {
@@ -92,4 +95,10 @@ header img {
 .alert {
 	color: red;
 	font-weight: bold;
+}
+
+footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
