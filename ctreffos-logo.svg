@@ -2,19 +2,22 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="516.80817"
    height="299.01935"
    id="svg8195"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="ctreffos-logo.svg">
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="ctreffos-logo.svg"
+   inkscape:export-filename="ctreffos-logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs8197" />
   <sodipodi:namedview
@@ -25,20 +28,23 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="267.20962"
-     inkscape:cy="124.858"
+     inkscape:cx="267.43788"
+     inkscape:cy="124.75384"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1143"
+     inkscape:window-height="1011"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      fit-margin-top="20"
      fit-margin-left="20"
      fit-margin-right="20"
-     fit-margin-bottom="20" />
+     fit-margin-bottom="20"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata8200">
     <rdf:RDF>
@@ -47,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -62,7 +68,6 @@
        x="193.37878"
        y="770.16583"
        id="text2985-3-2-5-5"
-       sodipodi:linespacing="107%"
        transform="scale(0.99165286,1.0084174)"><tspan
          sodipodi:role="line"
          id="tspan2987-6-4-2-8"
@@ -85,7 +90,6 @@
        id="rect7647-4-3-9-1"
        inkscape:connector-curvature="0" />
     <text
-       sodipodi:linespacing="125%"
        id="text3488-7-1"
        y="891.12744"
        x="490.53644"
@@ -98,7 +102,7 @@
          sodipodi:role="line">E</tspan></text>
     <g
        style="fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.00493596,0,0,-0.00493596,103.06673,986.88958)"
+       transform="matrix(0.00471677,0,0,-0.00493594,106.35493,986.88892)"
        id="g4157">
       <path
          d="M 14599,24965 C 10328.712,24866.305 6187.2604,22100.655 4704.2656,18054.512 3299.8715,14451.599 4251.8921,10107.861 6996.25,7389.75 10277.773,3943.8802 15828.154,3082.4683 20046.375,5236.875 c 3560.558,1712.3352 6043.877,5548.239 5887.609,9530.215 -43.55,4168.335 -2963.559,8003.165 -6828.984,9442.91 -1431.249,555.867 -2972.85,802.954 -4506,755 z m 866,-629 c 4138.559,-120.594 8121.617,-2928.753 9366.521,-6922.555 1160.904,-3455.794 52.625,-7489.6527 -2642.271,-9928.4294 C 18904.338,4343.3763 13538.373,3793.4652 9649.875,6118.375 6322.8622,7987.1771 4245.6258,11912.707 4790,15720 c 486.4969,4211.758 4039.9142,7699.619 8164.375,8430.75 825.44,161.876 1670.544,217.953 2510.625,185.25 z"

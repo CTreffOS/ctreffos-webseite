@@ -2,20 +2,23 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="327.13"
    height="327.13"
    id="svg8195"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="ctreffos-logo.svg">
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="ctreffos-logo-square.svg"
+   inkscape:export-filename="ctreffos-logo-square.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs8197" />
   <sodipodi:namedview
@@ -26,20 +29,23 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="314.12524"
-     inkscape:cy="166.56613"
+     inkscape:cx="185"
+     inkscape:cy="175"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="879"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      fit-margin-top="20"
      fit-margin-left="20"
      fit-margin-right="20"
-     fit-margin-bottom="20" />
+     fit-margin-bottom="20"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata8200">
     <rdf:RDF>
@@ -48,7 +54,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -62,23 +68,22 @@
        transform="translate(-8.0207552,-6.077357)">
       <text
          transform="scale(0.99165286,1.0084174)"
-         sodipodi:linespacing="107.00001%"
          id="text2985-3-2-5-5"
          y="770.16583"
          x="193.37878"
-         style="font-size:38.04227066px;font-style:normal;font-weight:normal;line-height:107.00000525%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
-           style="font-size:68.47608948px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:107.00000525%;letter-spacing:0px;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:68.4761px;line-height:107%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;stroke:none"
            y="770.16583"
            x="193.37878"
            id="tspan2987-6-4-2-8"
            sodipodi:role="line">CHAOS</tspan><tspan
-           style="font-size:68.47608948px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:107.00000525%;letter-spacing:0px;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:68.4761px;line-height:107%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;stroke:none"
            id="tspan2989-4-8-9-5"
            y="843.43524"
            x="193.37878"
            sodipodi:role="line">TREFF</tspan><tspan
-           style="font-size:68.47608948px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:107.00000525%;letter-spacing:0px;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:68.4761px;line-height:107%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';letter-spacing:0px;stroke:none"
            id="tspan2991-0-3-8-3"
            y="916.70465"
            x="193.37878"
@@ -91,15 +96,15 @@
          style="color:#000000;fill:none;stroke:#000000;stroke-width:3.1730001;stroke-miterlimit:4;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
       <g
          id="g6-9-4"
-         transform="matrix(0.26814856,0,0,0.2562255,177.1103,915.23676)">
+         transform="matrix(0.25604509,0,0,0.2564037,177.1102,915.23696)">
         <path
-           d="m 6,37 c 0,19 3,38 17,57 -12,12 -10,41 -10,62 l -25,0 c 0,-21 1,-50 -11,-62 C -9,75 -6,56 -6,37 l 12,0 z"
+           d="m 6,37 c 0,19 3,38 17,57 -12,12 -10,41 -10,62 h -25 c 0,-21 1,-50 -11,-62 C -9,75 -6,56 -6,37 Z"
            id="felly-1-0"
            inkscape:connector-curvature="0"
            style="fill:#000000" />
         <use
            id="use9-0-9"
-           transform="matrix(0.5,0.8660254,-0.8660254,0.5,0,0)"
+           transform="rotate(60)"
            xlink:href="#felly-1-0"
            x="0"
            y="0"
@@ -107,7 +112,7 @@
            height="1052.3622" />
         <use
            id="use11-0-3"
-           transform="matrix(-0.5,0.8660254,-0.8660254,-0.5,0,0)"
+           transform="rotate(120)"
            xlink:href="#felly-1-0"
            x="0"
            y="0"
@@ -115,7 +120,7 @@
            height="1052.3622" />
         <use
            id="use13-8-8"
-           transform="scale(-1,-1)"
+           transform="scale(-1)"
            xlink:href="#felly-1-0"
            x="0"
            y="0"
@@ -123,7 +128,7 @@
            height="1052.3622" />
         <use
            id="use15-7-4"
-           transform="matrix(-0.5,-0.8660254,0.8660254,-0.5,0,0)"
+           transform="rotate(-120)"
            xlink:href="#felly-1-0"
            x="0"
            y="0"
@@ -131,7 +136,7 @@
            height="1052.3622" />
         <use
            id="use17-8-2"
-           transform="matrix(0.5,-0.8660254,0.8660254,0.5,0,0)"
+           transform="rotate(-60)"
            xlink:href="#felly-1-0"
            x="0"
            y="0"
@@ -141,59 +146,34 @@
            id="g19-5-6"
            style="fill:none;stroke:#000000">
           <circle
-             d="m 195,0 c 0,107.69553 -87.30447,195 -195,195 -107.69553,0 -195,-87.30447 -195,-195 0,-107.69553 87.30447,-195 195,-195 107.69553,0 195,87.30447 195,195 z"
              id="circle21-7-3"
              r="195"
              cx="0"
              cy="0"
-             sodipodi:cx="0"
-             sodipodi:cy="0"
-             sodipodi:rx="195"
-             sodipodi:ry="195"
              style="stroke-width:12" />
           <circle
-             d="M 176,0 C 176,97.202116 97.202116,176 0,176 -97.202116,176 -176,97.202116 -176,0 c 0,-97.202116 78.797884,-176 176,-176 97.202116,0 176,78.797884 176,176 z"
              id="circle23-0-2"
              r="176"
              cx="0"
              cy="0"
-             sodipodi:cx="0"
-             sodipodi:cy="0"
-             sodipodi:rx="176"
-             sodipodi:ry="176"
              style="stroke-width:12" />
           <circle
-             d="M 157,0 C 157,86.708706 86.708706,157 0,157 -86.708706,157 -157,86.708706 -157,0 c 0,-86.708706 70.291294,-157 157,-157 86.708706,0 157,70.291294 157,157 z"
              id="circle25-7-9"
              r="157"
              cx="0"
              cy="0"
-             sodipodi:cx="0"
-             sodipodi:cy="0"
-             sodipodi:rx="157"
-             sodipodi:ry="157"
              style="stroke-width:11" />
           <circle
-             d="M 37,0 C 37,20.434536 20.434536,37 0,37 -20.434536,37 -37,20.434536 -37,0 c 0,-20.434536 16.565464,-37 37,-37 20.434536,0 37,16.565464 37,37 z"
              id="circle27-5-2"
              r="37"
              cx="0"
              cy="0"
-             sodipodi:cx="0"
-             sodipodi:cy="0"
-             sodipodi:rx="37"
-             sodipodi:ry="37"
              style="stroke-width:11" />
           <circle
-             d="M 18,0 C 18,9.9411255 9.9411255,18 0,18 -9.9411255,18 -18,9.9411255 -18,0 c 0,-9.9411255 8.0588745,-18 18,-18 9.9411255,0 18,8.0588745 18,18 z"
              id="circle29-8-3"
              r="18"
              cx="0"
              cy="0"
-             sodipodi:cx="0"
-             sodipodi:cy="0"
-             sodipodi:rx="18"
-             sodipodi:ry="18"
              style="stroke-width:11" />
         </g>
       </g>
