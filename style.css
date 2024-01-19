@@ -1,7 +1,6 @@
 body {
 	max-width: 600px;
-	margin: 0 auto;
-	margin-top: 25px;
+	margin: 25px auto 0;
 	text-align: justify;
 	text-justify: auto;
 	-webkit-hyphens: auto;
@@ -16,17 +15,13 @@ body {
 }
 
 @media (prefers-color-scheme: dark) {
-	body {
+	body, a {
 		background-color: #222;
 		color: #eee;
 	}
 
-	a, a:hover {
-		color: #eee;
-	}
-
 	a:hover {
-		color: #ccc;
+		color: #898989;
 	}
 
 	.image {
@@ -35,17 +30,13 @@ body {
 }
 
 @media (prefers-color-scheme: light) {
-	body {
+	body, a {
 		background-color: #eee;
 		color: #222;
 	}
 
-	a, a:hover {
-		color: black;
-	}
-
 	a:hover {
-		color: gray;
+		color: #6c6c6c;
 	}
 }
 
