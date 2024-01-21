@@ -89,6 +89,10 @@ header img {
 	font-weight: bold;
 }
 
+.centered {
+	text-align: center;
+}
+
 footer {
 	display: flex;
 	flex-wrap: wrap;
