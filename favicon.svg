@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="favicon3.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="favicon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="17.721864"
+     inkscape:cx="11.144426"
+     inkscape:cy="19.072486"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g19-5-6" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#ffffff"
+       id="path1"
+       cx="15.870117"
+       cy="15.895576"
+       r="16" />
+    <g
+       id="g6-9-4"
+       transform="matrix(0.07172904,0,0,0.07205418,16,16.054104)">
+      <path
+         d="m 6,37 c 0,19 3,38 17,57 -12,12 -10,41 -10,62 h -25 c 0,-21 1,-50 -11,-62 C -9,75 -6,56 -6,37 Z"
+         id="felly-1-0"
+         inkscape:connector-curvature="0"
+         style="fill:#000000" />
+      <use
+         id="use9-0-9"
+         transform="rotate(60)"
+         xlink:href="#felly-1-0"
+         x="0"
+         y="0"
+         width="744.09448"
+         height="1052.3622" />
+      <use
+         id="use11-0-3"
+         transform="rotate(120)"
+         xlink:href="#felly-1-0"
+         x="0"
+         y="0"
+         width="744.09448"
+         height="1052.3622" />
+      <use
+         id="use13-8-8"
+         transform="scale(-1)"
+         xlink:href="#felly-1-0"
+         x="0"
+         y="0"
+         width="744.09448"
+         height="1052.3622" />
+      <use
+         id="use15-7-4"
+         transform="rotate(-120)"
+         xlink:href="#felly-1-0"
+         x="0"
+         y="0"
+         width="744.09448"
+         height="1052.3622" />
+      <use
+         id="use17-8-2"
+         transform="rotate(-60)"
+         xlink:href="#felly-1-0"
+         x="0"
+         y="0"
+         width="744.09448"
+         height="1052.3622" />
+      <g
+         id="g19-5-6"
+         style="fill:none;stroke:#000000">
+        <ellipse
+           id="circle23-0-2"
+           cx="-1.899541e-06"
+           cy="-0.75090021"
+           style="stroke-width:42.7936;stroke-dasharray:none"
+           rx="173.78217"
+           ry="172.90143" />
+        <circle
+           id="circle25-7-9"
+           r="157"
+           cx="0"
+           cy="0"
+           style="stroke-width:11" />
+        <ellipse
+           id="circle29-8-3"
+           style="stroke-width:27.8203;stroke-dasharray:none"
+           cy="-0.10382203"
+           cx="0.46007603"
+           rx="28.373991"
+           ry="28.372244" />
+      </g>
+    </g>
+  </g>
+</svg>

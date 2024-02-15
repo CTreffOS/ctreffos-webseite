@@ -2,20 +2,23 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="327.13"
    height="327.13"
    id="svg8195"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="ctreffos-logo.svg">
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="ctreffos-logo-square.svg"
+   inkscape:export-filename="ctreffos-logo-square.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs8197" />
   <sodipodi:namedview
@@ -26,20 +29,23 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="314.12524"
-     inkscape:cy="166.56613"
+     inkscape:cx="185.35714"
+     inkscape:cy="175"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g3002"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="879"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      fit-margin-top="20"
      fit-margin-left="20"
      fit-margin-right="20"
-     fit-margin-bottom="20" />
+     fit-margin-bottom="20"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata8200">
     <rdf:RDF>
@@ -48,7 +54,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -60,29 +66,24 @@
     <g
        id="g3002"
        transform="translate(-8.0207552,-6.077357)">
-      <text
-         transform="scale(0.99165286,1.0084174)"
-         sodipodi:linespacing="107.00001%"
+      <g
          id="text2985-3-2-5-5"
-         y="770.16583"
-         x="193.37878"
-         style="font-size:38.04227066px;font-style:normal;font-weight:normal;line-height:107.00000525%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         xml:space="preserve"><tspan
-           style="font-size:68.47608948px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:107.00000525%;letter-spacing:0px;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-           y="770.16583"
-           x="193.37878"
-           id="tspan2987-6-4-2-8"
-           sodipodi:role="line">CHAOS</tspan><tspan
-           style="font-size:68.47608948px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:107.00000525%;letter-spacing:0px;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-           id="tspan2989-4-8-9-5"
-           y="843.43524"
-           x="193.37878"
-           sodipodi:role="line">TREFF</tspan><tspan
-           style="font-size:68.47608948px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:107.00000525%;letter-spacing:0px;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-           id="tspan2991-0-3-8-3"
-           y="916.70465"
-           x="193.37878"
-           sodipodi:role="line"> OSNA</tspan></text>
+         style="line-height:0%;letter-spacing:0px;word-spacing:0px"
+         transform="scale(0.99165286,1.0084174)"
+         aria-label="CHAOS&#10;TREFF&#10; OSNA">
+        <path
+           style="font-size:68.4761px;line-height:107%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono'"
+           d="m 229.25518,768.39375 q -2.57454,1.37086 -5.28283,2.03957 -2.70828,0.70214 -5.75092,0.70214 -9.59601,0 -14.91227,-6.78742 -5.28283,-6.78743 -5.28283,-19.09173 0,-12.23742 5.31626,-19.05828 5.3497,-6.8543 14.87884,-6.8543 3.04264,0 5.75092,0.70215 2.70829,0.66871 5.28283,2.03957 v 6.92117 q -2.47424,-2.03958 -5.31626,-3.10951 -2.84203,-1.06994 -5.71749,-1.06994 -6.58681,0 -9.8635,5.08221 -3.27669,5.08221 -3.27669,15.34693 0,10.2313 3.27669,15.31351 3.27669,5.08221 9.8635,5.08221 2.94233,0 5.75092,-1.06994 2.84203,-1.06994 5.28283,-3.10951 z m 9.93037,-48.14726 h 6.78743 v 20.46258 h 18.48988 v -20.46258 h 6.78742 v 49.91934 h -6.78742 v -23.77271 h -18.48988 v 23.77271 h -6.78743 z m 57.24174,5.95154 -7.12178,25.54479 h 14.24356 z m -4.07914,-5.95154 h 8.19172 l 15.28006,49.91934 h -6.98804 l -3.67791,-13.00644 h -17.48682 l -3.61104,13.00644 h -6.98804 z m 54.96812,25.00982 q 0,-11.00031 -2.27362,-15.71472 -2.24019,-4.71442 -7.38927,-4.71442 -5.11565,0 -7.38927,4.71442 -2.24018,4.71441 -2.24018,15.71472 0,10.96688 2.24018,15.6813 2.27362,4.71442 7.38927,4.71442 5.14908,0 7.38927,-4.68099 2.27362,-4.71441 2.27362,-15.71473 z m 7.05491,0 q 0,13.03989 -4.14602,19.45952 -4.11258,6.41963 -12.57178,6.41963 -8.45921,0 -12.57178,-6.38619 -4.11258,-6.3862 -4.11258,-19.49296 0,-13.07331 4.11258,-19.49295 4.14601,-6.41963 12.57178,-6.41963 8.4592,0 12.57178,6.41963 4.14602,6.41964 4.14602,19.49295 z m 37.74878,-23.3046 v 6.85429 q -3.07607,-1.9727 -6.18558,-2.97577 -3.07608,-1.00306 -6.21902,-1.00306 -4.78129,0 -7.55645,2.24018 -2.77515,2.20675 -2.77515,5.98497 0,3.31013 1.80552,5.04878 1.83896,1.73865 6.82086,2.90889 l 3.54418,0.80246 q 7.02147,1.63834 10.23129,5.14908 3.20981,3.51074 3.20981,9.56258 0,7.12178 -4.41349,10.86657 -4.4135,3.74478 -12.83927,3.74478 -3.51074,0 -7.05491,-0.76901 -3.54418,-0.73559 -7.12178,-2.24019 v -7.18865 q 3.84509,2.4408 7.25552,3.57761 3.44387,1.13681 6.92117,1.13681 5.11564,0 7.95767,-2.27362 2.84202,-2.30706 2.84202,-6.41964 0,-3.74478 -1.9727,-5.71748 -1.93926,-1.9727 -6.78742,-3.04264 l -3.61104,-0.83589 q -6.95461,-1.57148 -10.09755,-4.74786 -3.14295,-3.17638 -3.14295,-8.52607 0,-6.68712 4.48037,-10.69939 4.5138,-4.04571 11.96994,-4.04571 2.87546,0 6.05184,0.66871 3.17639,0.63528 6.68712,1.93927 z"
+           id="path1" />
+        <path
+           style="font-size:68.4761px;line-height:107%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono'"
+           d="m 194.95026,793.51592 h 38.08314 v 5.68405 h -15.61442 v 44.23529 h -6.78743 v -44.23529 h -15.68129 z m 65.06567,26.34725 q 2.60797,0.66871 4.44693,2.5411 1.83896,1.83896 4.58068,7.38927 l 6.78742,13.64172 h -7.25552 l -5.95154,-12.60522 q -2.57454,-5.38313 -4.64755,-6.92117 -2.03957,-1.57147 -5.34969,-1.57147 h -6.45307 v 21.09786 h -6.78743 v -49.91934 h 13.90921 q 8.22516,0 12.60522,3.71135 4.38006,3.71135 4.38006,10.73282 0,4.94847 -2.70828,8.09142 -2.67485,3.10951 -7.55644,3.81166 z m -13.84234,-20.79694 v 17.72086 h 7.38927 q 4.84816,0 7.22208,-2.17331 2.37393,-2.17332 2.37393,-6.65369 0,-4.31319 -2.5411,-6.58681 -2.50767,-2.30705 -7.3224,-2.30705 z m 36.24419,-5.55031 h 29.62393 v 5.68405 h -22.86994 v 14.77853 h 21.86687 v 5.68405 h -21.86687 v 18.08866 h 23.50522 v 5.68405 h -30.25921 z m 42.42977,0 h 29.38988 v 5.68405 h -22.60246 v 14.71166 h 20.49602 v 5.68405 h -20.49602 v 23.83958 h -6.78742 z m 41.22609,0 h 29.38988 v 5.68405 h -22.60246 v 14.71166 h 20.49602 v 5.68405 h -20.49602 v 23.83958 h -6.78742 z"
+           id="path2" />
+        <path
+           style="font-size:68.4761px;line-height:107%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono'"
+           d="m 264.86409,891.79517 q 0,-11.00031 -2.27362,-15.71473 -2.24019,-4.71442 -7.38927,-4.71442 -5.11565,0 -7.38927,4.71442 -2.24018,4.71442 -2.24018,15.71473 0,10.96687 2.24018,15.68129 2.27362,4.71442 7.38927,4.71442 5.14908,0 7.38927,-4.68098 2.27362,-4.71442 2.27362,-15.71473 z m 7.05491,0 q 0,13.03988 -4.14602,19.45952 -4.11257,6.41963 -12.57178,6.41963 -8.45921,0 -12.57178,-6.3862 -4.11258,-6.3862 -4.11258,-19.49295 0,-13.07332 4.11258,-19.49295 4.14601,-6.41964 12.57178,-6.41964 8.45921,0 12.57178,6.41964 4.14602,6.41963 4.14602,19.49295 z m 37.74878,-23.30461 v 6.8543 q -3.07607,-1.9727 -6.18558,-2.97577 -3.07608,-1.00307 -6.21902,-1.00307 -4.78129,0 -7.55645,2.24019 -2.77515,2.20675 -2.77515,5.98497 0,3.31012 1.80552,5.04877 1.83896,1.73865 6.82086,2.9089 l 3.54418,0.80245 q 7.02147,1.63835 10.23129,5.14909 3.20982,3.51073 3.20982,9.56258 0,7.12178 -4.4135,10.86656 -4.4135,3.74479 -12.83927,3.74479 -3.51074,0 -7.05491,-0.76902 -3.54417,-0.73558 -7.12178,-2.24018 v -7.18866 q 3.84509,2.4408 7.25552,3.57761 3.44387,1.13681 6.92117,1.13681 5.11564,0 7.95767,-2.27362 2.84203,-2.30705 2.84203,-6.41963 0,-3.74479 -1.9727,-5.71749 -1.93927,-1.9727 -6.78743,-3.04264 l -3.61104,-0.83589 q -6.95461,-1.57147 -10.09755,-4.74785 -3.14295,-3.17638 -3.14295,-8.52608 0,-6.68712 4.48037,-10.69939 4.51381,-4.04571 11.96994,-4.04571 2.87546,0 6.05185,0.66872 3.17638,0.63527 6.68711,1.93926 z m 12.03682,-1.70521 h 8.55951 l 16.85154,41.09234 v -41.09234 h 6.51994 v 49.91934 h -8.55951 l -16.85154,-41.09235 v 41.09235 h -6.51994 z m 57.17487,5.95153 -7.12178,25.5448 h 14.24356 z m -4.07914,-5.95153 h 8.19172 l 15.28006,49.91934 h -6.98804 l -3.67791,-13.00645 h -17.48682 l -3.61104,13.00645 h -6.98804 z"
+           id="path3" />
+      </g>
       <path
          sodipodi:nodetypes="cccccc"
          inkscape:connector-curvature="0"
@@ -91,15 +92,15 @@
          style="color:#000000;fill:none;stroke:#000000;stroke-width:3.1730001;stroke-miterlimit:4;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
       <g
          id="g6-9-4"
-         transform="matrix(0.26814856,0,0,0.2562255,177.1103,915.23676)">
+         transform="matrix(0.25604509,0,0,0.2564037,177.1102,915.23696)">
         <path
-           d="m 6,37 c 0,19 3,38 17,57 -12,12 -10,41 -10,62 l -25,0 c 0,-21 1,-50 -11,-62 C -9,75 -6,56 -6,37 l 12,0 z"
+           d="m 6,37 c 0,19 3,38 17,57 -12,12 -10,41 -10,62 h -25 c 0,-21 1,-50 -11,-62 C -9,75 -6,56 -6,37 Z"
            id="felly-1-0"
            inkscape:connector-curvature="0"
            style="fill:#000000" />
         <use
            id="use9-0-9"
-           transform="matrix(0.5,0.8660254,-0.8660254,0.5,0,0)"
+           transform="rotate(60)"
            xlink:href="#felly-1-0"
            x="0"
            y="0"
@@ -107,7 +108,7 @@
            height="1052.3622" />
         <use
            id="use11-0-3"
-           transform="matrix(-0.5,0.8660254,-0.8660254,-0.5,0,0)"
+           transform="rotate(120)"
            xlink:href="#felly-1-0"
            x="0"
            y="0"
@@ -115,7 +116,7 @@
            height="1052.3622" />
         <use
            id="use13-8-8"
-           transform="scale(-1,-1)"
+           transform="scale(-1)"
            xlink:href="#felly-1-0"
            x="0"
            y="0"
@@ -123,7 +124,7 @@
            height="1052.3622" />
         <use
            id="use15-7-4"
-           transform="matrix(-0.5,-0.8660254,0.8660254,-0.5,0,0)"
+           transform="rotate(-120)"
            xlink:href="#felly-1-0"
            x="0"
            y="0"
@@ -131,7 +132,7 @@
            height="1052.3622" />
         <use
            id="use17-8-2"
-           transform="matrix(0.5,-0.8660254,0.8660254,0.5,0,0)"
+           transform="rotate(-60)"
            xlink:href="#felly-1-0"
            x="0"
            y="0"
@@ -141,59 +142,34 @@
            id="g19-5-6"
            style="fill:none;stroke:#000000">
           <circle
-             d="m 195,0 c 0,107.69553 -87.30447,195 -195,195 -107.69553,0 -195,-87.30447 -195,-195 0,-107.69553 87.30447,-195 195,-195 107.69553,0 195,87.30447 195,195 z"
              id="circle21-7-3"
              r="195"
              cx="0"
              cy="0"
-             sodipodi:cx="0"
-             sodipodi:cy="0"
-             sodipodi:rx="195"
-             sodipodi:ry="195"
              style="stroke-width:12" />
           <circle
-             d="M 176,0 C 176,97.202116 97.202116,176 0,176 -97.202116,176 -176,97.202116 -176,0 c 0,-97.202116 78.797884,-176 176,-176 97.202116,0 176,78.797884 176,176 z"
              id="circle23-0-2"
              r="176"
              cx="0"
              cy="0"
-             sodipodi:cx="0"
-             sodipodi:cy="0"
-             sodipodi:rx="176"
-             sodipodi:ry="176"
              style="stroke-width:12" />
           <circle
-             d="M 157,0 C 157,86.708706 86.708706,157 0,157 -86.708706,157 -157,86.708706 -157,0 c 0,-86.708706 70.291294,-157 157,-157 86.708706,0 157,70.291294 157,157 z"
              id="circle25-7-9"
              r="157"
              cx="0"
              cy="0"
-             sodipodi:cx="0"
-             sodipodi:cy="0"
-             sodipodi:rx="157"
-             sodipodi:ry="157"
              style="stroke-width:11" />
           <circle
-             d="M 37,0 C 37,20.434536 20.434536,37 0,37 -20.434536,37 -37,20.434536 -37,0 c 0,-20.434536 16.565464,-37 37,-37 20.434536,0 37,16.565464 37,37 z"
              id="circle27-5-2"
              r="37"
              cx="0"
              cy="0"
-             sodipodi:cx="0"
-             sodipodi:cy="0"
-             sodipodi:rx="37"
-             sodipodi:ry="37"
              style="stroke-width:11" />
           <circle
-             d="M 18,0 C 18,9.9411255 9.9411255,18 0,18 -9.9411255,18 -18,9.9411255 -18,0 c 0,-9.9411255 8.0588745,-18 18,-18 9.9411255,0 18,8.0588745 18,18 z"
              id="circle29-8-3"
              r="18"
              cx="0"
              cy="0"
-             sodipodi:cx="0"
-             sodipodi:cy="0"
-             sodipodi:rx="18"
-             sodipodi:ry="18"
              style="stroke-width:11" />
         </g>
       </g>
